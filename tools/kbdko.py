@@ -27,8 +27,8 @@ A = 'ㅏㅣㅡㅔㅗ'
 O = 'ㅓㅜㅐㅕㅠ'
 # 쪽마다 46칸: 7열×5 + や열 3 + ら열 5 + わ열 3
 PAGES = {
-    'jp_hiragana': grid('ㅇㄱㅅㄷㄴㅎㅁ', A) + list('야유요') + grid('ㄹ', A) + list('와워은'),
-    'jp_katakana': list('어우애여얘') + grid('ㄱㅅㄷㄴㅎㅁ', O) + list('예의왜') + grid('ㄹ', O) + list('파크피'),   # 위·외·웨 자리 → 파·크·피(파크 이름·하스피 — 사용자 지정 2026-09-25)   # ㅇ 열 «유» 는 かな 야유요 와 겹쳐 «얘»
+    'jp_hiragana': grid('ㅇㄱㅅㄷㄴㅎㅁ', A) + list('야유요') + grid('ㄹ', A) + list('와워피'),   # «은» 자리 → «피»(하스피)
+    'jp_katakana': list('어우애여얘') + grid('ㄱㅅㄷㄴㅎㅁ', O) + list('예의왜') + grid('ㄹ', O) + list('위외웨'),   # ㅇ 열 «유» 는 かな 야유요 와 겹쳐 «얘»
     'jp_dakuten': grid('ㅂㅋㅈㅌㅍㅊㄲ', A) + list('따띠또') + grid('ㅃ', A) + list('싸씨쏘'),
     'jp_katakana_dakuten': grid('ㅂㅋㅈㅌㅍㅊㄲ', O) + list('떠뚜때') + grid('ㅃ', O) + list('써쑤쌔'),
 }
@@ -85,7 +85,11 @@ def is_kana(c):
     return 0x3040 <= ord(c) <= 0x30FF and c != 'ー'
 
 
-def build(orig, syls):
+# 가나 칸 말고 부호 칸도 바꾸는 쪽: 한글1 의 일본어 쉼표·마침표 → 파·크(파크 이름 — 사용자 지정 2026-09-25)
+PUNCT = {'jp_hiragana': {'、': '파', '。': '크'}}
+
+
+def build(orig, syls, punct=None):
     assert orig[:2] == b'\xff\xfe'
     t = orig[2:].decode('utf-16-le')
     kana = [i for i, c in enumerate(t) if is_kana(c)]
@@ -93,6 +97,9 @@ def build(orig, syls):
     t = list(t)
     for i, s in zip(kana, syls):
         t[i] = s
+    for i, c in enumerate(t):
+        if punct and c in punct:
+            t[i] = punct[c]
     return b'\xff\xfe' + ''.join(t).encode('utf-16-le')
 
 
@@ -106,9 +113,9 @@ def apply(r):
         if name not in USED:
             continue
         fn = 'DATA/%s.kbdmap' % name
-        d = build(bytes(r.getFileByName(fn)), syls)
+        d = build(bytes(r.getFileByName(fn)), syls, PUNCT.get(name))
         r.setFileByName(fn, d)
-        out += syls
+        out += syls + list(PUNCT.get(name, {}).values())
     return out
 
 
