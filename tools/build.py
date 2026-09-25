@@ -23,6 +23,7 @@ GALMURI9 = 'C:/claude/utils/font/Galmuri-v2.40.3/Galmuri9.bdf'
 FONT = 'DATA/fontAll.nftr'
 TOP, BOTTOM = 2, 10          # 일본어 글자가 쓰는 행(실측: 漢·あ 2‥10)
 ADV = 10
+LANG_NAME = '한국어'           # 언어 선택 목록의 일본어 자리
 
 
 def load_ko(folder):
@@ -70,7 +71,17 @@ def main():
         texts[b] = groups
         r.setFileByName(name, langdat.build(groups))
         print('  %-8s 바꾼 줄 %d' % (b, n))
-    alltext = ''.join(s for gs in texts.values() for g in gs for s in g)
+    # 언어 선택 목록의 «日本語»(LANG0 10/10)는 «지금 언어의 파일»에서 읽는다 → 모든 언어 파일에서 «한국어»로
+    #   (한자 칸을 한글로 바꾸므로 다른 언어에 남은 日本語 는 깨진다)
+    for lg in ('EN', 'FR', 'GR', 'ES', 'ITA'):
+        name = 'DATA/LANG0-%s.DAT' % lg
+        g = langdat.parse(bytes(r.getFileByName(name)))
+        assert g[10][10] == '日本語', (lg, g[10][10])
+        g[10][10] = LANG_NAME
+        r.setFileByName(name, langdat.build(g))
+    texts['LANG0'][10][10] = LANG_NAME
+    r.setFileByName('DATA/LANG0-JP.DAT', langdat.build(texts['LANG0']))
+    alltext = ''.join(s for gs in texts.values() for g in gs for s in g) + LANG_NAME
     syl = sorted({c for c in alltext if 0xAC00 <= ord(c) <= 0xD7A3})
     keep = {c for c in alltext if 0x4E00 <= ord(c) <= 0x9FFF}
     f = nftr.Nftr(bytes(r.getFileByName(FONT)))
