@@ -7,7 +7,7 @@ Theme Park DS (NDS 북미판, A8QE)의 비공식 한글 패치입니다.
 | | MD5 |
 |---|---|
 | 원본 `Theme Park DS.nds` | `99D714F2FECE28C830DDE07C8AEEA477` |
-| 패치 결과 | `FAC6D2F5ADB399D7980BF87E000D763C` |
+| 패치 결과 | `403EDCC7A17C853401992B63F99E271B` |
 
 ## 바뀌는 것
 

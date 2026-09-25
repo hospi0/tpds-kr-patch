@@ -62,6 +62,10 @@ def patch(rom):
     # 기본 언어 = 한국어(JP 자리 0번): OS_GetOwnerInfo(0x2099854) 가 본체 언어를 [0x27FFCE4]&7 로 읽는 줄을 «0» 으로
     assert a[o(0x209986C):o(0x2099870)] == asm(0x209986C, 'lsl r2, r2, #0x1d'), '0x209986C 원본 다름'
     a[o(0x209986C):o(0x2099870)] = asm(0x209986C, 'mov r2, #0')
+    # 날짜 서식 «%s%d日»(UTF-8, 0x20AD480) → «%s%d일» — 같은 3바이트(실기 2026-09-25: 1월3日)
+    DAY = b'%s%d' + '日'.encode('utf-8') + b'\0'
+    assert a[o(0x20AD480):o(0x20AD480) + len(DAY)] == DAY, '날짜 서식 원본 다름'
+    a[o(0x20AD480):o(0x20AD480) + len(DAY)] = b'%s%d' + '일'.encode('utf-8') + b'\0'
     return bytes(a)
 
 
