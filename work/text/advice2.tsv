@@ -1,0 +1,316 @@
+#묶음	번호	식별자	EN	JP	KO
+0	0	MA_LEGAL_PATH	<1>As you can see, the Path Placement icon is ON. That means you can use the stylus to place paths!	<1>歩道設置アイコンがＯＮの状態です。\nタッチペンで歩道が書けますね。	
+0	1	MA_LEGAL_RAIL	<1>Look! The Queue Placement icon is ON. Now you can use the stylus to place queues!	<1>整列歩道設置アイコンがＯＮの状態です。\nタッチペンで整列歩道が書けますね。	
+0	2	MA_LEGAL_MONO	<1>As you can see, the Monorail Placement icon is ON. That means you can use the stylus to place monorail tracks!	<1>モノレールアイコンがＯＮの状態です。\nタッチペンでモノレールコースが書けますね。	
+0	3	MA_LOOP_LEGAL	<1>Look! The Roller Coaster Placement icon is ON. Now you can use the stylus to place roller coaster courses!	<1>ジェットコースターアイコンがＯＮの状態です。\nタッチペンでコースが書けますね。	
+0	4	MA_COASTER_HELP	<1>The height of tracks can be adjusted by first tapping their bases, then the arrows in the bottom right-hand corner of the screen.	<1>レール設置時、根元をタッチしてから\n画面右下のアイコンで、\nレールの高さを調節できます。	
+0	5	MA_LEGAL_ROLER	<1>As you can see, the Roller Coaster Track icon is ON. That means you can use the stylus to place tracks.<P>The height of tracks can be adjusted by tapping their bases, then the arrows in the bottom right-hand corner of the screen.	<1>レールアイコンがＯＮの状態です。\nタッチペンでレールが書けますね。<P>レール設置時、根元をタッチしてから\n画面右下のアイコンで、\nレールの高さを調節できます。	
+0	6	MA_TRACK_LEGAL	<1>Look! The Go-Kart Placement icon is ON. Now you can use the stylus to place go-kart courses for %s.	<1>ゴーカートアイコンがＯＮの状態です。\n%sのコストで\nタッチペンでコースが書けますね。	
+0	7	MA_LEGAL_RIVER	<1>Oh look, the Water Slide Placement icon is ON. Use your stylus to place water slides for %s.	<1>ウォータースライダーアイコンが\nＯＮの状態です。%sのコストで\nタッチペンでコースが書けますね。	
+0	8	MA_PLACE_ONEWAY	<1>Please place a one-way traffic sign. Would you choose a location on a path for the sign by tapping the screen?	<1>一方通行を案内する標識を設置します。\n場所を指定後、\nタッチペンでタッチして頂けますか？	
+0	9	MA_PLACE_ONWAY_DIR	<1>Now set the facing of your sign by tapping it. Each time you tap it, the direction it is pointing will change.	<1>次に進行方向の指定です。\n設置場所を再度タッチして頂くと、\n方向が変更されます。	
+0	10	MA_PLACE_ONEWAY_CONFIRM	<1>Would you please tap the OK icon when your sign is all set up?	<1>方向がこれでＯＫならば、\nＯＫアイコンをタッチして頂けますか？	
+0	11	MA_PLACE_SIGN_POST	<1>Please place Sign Posts for the rides. Would you use the stylus to tap on and select a ride?	<1>案内標識を設置しますね。最初に案内したい\nアトラクション、ショップ、又は正面ゲートを\nタッチして頂けますか？	
+0	12	MA_PLACE_SIGN_DIR	<1>OK, would you now choose a location for a Sign Post by tapping on a path, somewhere on the screen?	<1>次に案内標識の設置です。\n標識の設置場所をタッチして頂けますか？<P>設置した案内標識は、\n同じ所をタッチして頂くことで\n向きを変更する事ができますからね。	
+0	13	MA_PLACE_SIGN_CONFIRM	<1>Great. Now set which way the Sign Post should face and tap the OK icon. 	<1>最後に案内標識の向きを決めましょう。\n方向を指定後、\nＯＫアイコンをタッチして頂けますか？	
+0	14	MA_PLACE_RIDE	<1>Please place this attraction. Would you select a location, then tap the OK icon to finish?	<1>アトラクションを設置しますね。\n場所を指定後、\nＯＫアイコンをタッチして頂けますか？	
+0	15	MA_PLACE_RIDE_ENTRANCE	<1>Now please place the attraction's entrance. Would you select a location, then tap the OK icon to finish?	<1>次にアトラクションの入口を設置です。\n場所を指定後、\nＯＫアイコンをタッチして頂けますか？	
+0	16	MA_PLACE_RIDE_EXIT	<1>To finish, please select an exit. Would you select a location, then tap the OK icon to finish?	<1>最後に出口の設置です。\n場所を指定後、\nＯＫアイコンをタッチして頂けますか？	
+0	17	MA_PLACE_SHOP	<1>Please place this shop. Would you select a location, then tap the OK icon to finish?	<1>ショップを設置しますね。\n場所を指定後、\nＯＫアイコンをタッチして頂けますか？	
+0	18	MA_PLACE_SCENERY	<1>Please place this piece of scenery. Would you select a location by tapping it with the stylus?	<1>設備を設置しますね。\n設置したい場所を\nタッチペンでタッチして頂けますか？	
+0	19	MA_PLACE_STAFF	<1>Please place this employee. Would you select a location by tapping it with the stylus?	<1>スタッフを配置しますね。\n配置したい場所を\nタッチペンでタッチして頂けますか？	
+0	20	MA_DELETE_PAID_RIDE	This attraction cost %s.\nDo you really want to demolish it?	このアトラクションには\n%sの費用がかかっていますね。\n本当に撤去するのですか？	
+0	21	MA_DELETE_UNPAID_RIDE	Are you sure you want to delete this?\nSince it has not been in your park for at least a month, it won't cost you anything.	設置して１ヶ月以内なので、\nこれを撤去しても\n今なら費用は必要ありませんわ。	
+0	22	MA_DELETE_PAID_SHOP	This shop cost %s.\nDo you really want to demolish it?	このショップには\n%sの費用がかかっていますね。\n本当に撤去するのですか？	
+0	23	MA_DELETE_UNPAID_SHOP	Are you sure you want to delete this?\nSince it has not been in your park for at least a month, it won't cost you anything.	設置して１ヶ月以内なので、\nこれを撤去しても\n今なら費用は必要ありませんわ。	
+0	24	MA_CONFIRM_FIRE	Do you really want to fire this employee?	本当に、このスタッフを解雇しますか？	
+0	25	MA_MANAGEMENT_DESCRIPTION	Adjust management settings on this screen.<P>To confirm selections, draw a check mark or circle the icons with the stylus.	この画面では、経営に関する設定を行います。<P>選択の決定は、\nタッチペンでアイコンをチェック\nあるいは○で囲んでください。	
+0	26	MA_STOCK_SCREEN	Order raw materials necessary for shops and manage inventory.	ショップで必要な\n原材料の発注、在庫管理を行います。	
+0	27	MA_GRAPH_DESCRIPTION	Use graphs to get an understanding of theme park finances.	テーマパークの経済推移状況を、\nグラフで把握できます。	
+0	28	MA_VISITOR_DESCRIOTION	View the results of questionnaires given to park visitors.	来場したお客様の感想をアンケート集計した、\n統計結果を参照できます。	
+0	29	MA_LITS_DESCRIPTION	Use this database to view charts on park attractions, facilities and staff.	テーマパーク内の施設、設置物、スタッフを、\n表形式で一覧できるデータベースです。	
+0	30	MA_BANK_DETAILS	Access the bank. Apply for loans and make loan payments.	銀行を利用します。\n借入れ金の申し出と、返済を行います。	
+0	31	MA_RESEARCH_DESCRIPTION	Develop new facilities, remodel existing facilities and train staff members.	新しい設備の開発、\n既存の設備の改良、\nスタッフの研修を行います。	
+0	32	MA_STORAGE_SCREEN	Buy and sell stocks.	株の売買を行います。	
+0	33	MA_ADMISSION_PRICE	Raise or lower park admission prices.	入場料の値上げ、値下げを行います。	
+0	34	MA_EXPAND_WAREHOUSE	Research and development results announced! You can now store %d of each type of merchandise!	研究開発の成果が報告されました！\n１商品あたり\n%dの在庫保管が可能となります！	
+0	35	MA_STOCK_AVAIL_MSG	You can store %d of each type of merchandise.	現在１商品あたり、\n%dの在庫保管が可能です。	
+0	36	MA_STOCK_COUNT_MSG	This is %s.	%sの在庫です。	
+0	37	MA_STOCK_ORDER_MSG	Set the amount to be ordered, then tap the OK icon.	発注数が決まりましたら、\nＯＫアイコンをタッチしてください。	
+0	38	MA_STOCK_ORDERED_MSG	<1>You've finished ordering %s. Delivery is %s. Please be patient.	<1>%s、発注完了です。\n納品予定は%s、心待ちにしましょうね。	
+0	39	MA_BANK_HELP	After adjusting the amount, tap the LOAN TAKEN OUT button to borrow, and the LOAN REPAID button to pay back loans.	金額を入力後、借入れは”借入れ”アイコンを、\n返済は”借入れ返済”アイコンを\nタッチしてください。	
+0	40	MA_BANK_PAY_MSG	Tap this button if you want to make a loan payment.	借入れ金の返済を行いたい場合、\nこちらのボタンをタッチしてください。	
+0	41	MA_BANK_LOAN_MSG	Tap this button if you want to apply for a loan.	借入れを行いたい場合、\nこちらのボタンをタッチしてください。	
+0	42	MA_BANK_LOANED_MSG	<1>You've borrowed %s from the bank. Be sure to put it to good use!	<1>銀行から%sを借入れてきました。\n有効に使いましょうね。	
+0	43	MA_BANK_PAYED_MSG	<1>You've paid the bank back %s. Good work!	<1>銀行に%s、\n責任持って返済してきました。	
+0	44	MA_RAD_HELP	Develop new facilities, remodel existing facilities and train staff members on this screen.<P>To confirm selections, check or circle the icon with the stylus.	この画面では新しい設備の開発、\n既存の設備の改良、\nスタッフの研修を行います。<P>選択の決定は、\nタッチペンでアイコンをチェック\nあるいは○で囲んでください。	
+0	45	MA_RAD_NEW_RIDE_DES	Develop a new ride. Be sure to plan wisely to keep your guests entertained.	新しいアトラクションを開発します。\nお客さんを飽きさせない為にも、\n積極的に投資しましょう。	
+0	46	MA_RAD_UP_RIDE_DES	Remodel a ride. This allows you to increase the number of visitors on the ride and the number of staff while keeping costs low.	アトラクションを改良します。\n最大定員数の増加と、\n設備費用を低く抑える効果が期待できます。	
+0	47	MA_RAD_NEW_SHOP_DES	Develop a new shop. New merchandise adds to the park's revenues.	新しいショップを開発します。\n新しいショップの商品は、\nテーマパークの収益に貢献するでしょう。	
+0	48	MA_RAD_TRAIN_STAFF_DES	Train staff members. A well-trained staff provides the best possible service.	スタッフの研修を行います。\n高度な教育を受けたスタッフは、\nよりよいサービスを提供するでしょう。	
+0	49	MA_RAD_NEW_FAC_DES	Develop new facilities. Management of facilities has a strong impact on the apearance and hygiene of the park.	新しい施設を開発します。\n施設の充実は、テーマパークの景観と\n衛生面に強く影響を与えます。	
+0	50	MA_RAD_UP_FAC_DES	Remodel facilities. This will expand storage capabilities and improve bus services.	施設の改修を行います。具体的には、\n倉庫の拡張と送迎バスの大型化を行います。	
+0	51	MA_RAD_NEW_RIDE_MSG	Set the new Research budget. Tap the OK icon when the amount has been set.	新しい開発費用を入力します。\n金額を入力後、\nＯＫアイコンをタッチしてください。	
+0	52	MA_RAD_CONFIRMED0_MSG	<1>The new budget is %s. Remember, this amount will be automatically subtracted from your account each month.	<1>新しい費用は%sです。\nこの設定金額で毎月引き落しされます。\n要注意ですよ。	
+0	53	MA_SHARE_HELP	After entering in the price, tap the BUY button to buy stocks, and tap the SELL button if you would like to sell stocks.	金額を入力後、株の購入は”買う”アイコンを、\n売却は”売る”アイコンをタッチしてください。	
+0	54	MA_SHARE_BUY	<1>You bought %d shares of %s.	<1>%s株を\n%d購入しました。	
+0	55	MA_SHARE_SELL	<1>You sold %d shares of %s.	<1>%s株を\n%d売却しました。	
+0	56	MA_ADMISSION_HELP	Set a new admission price. Tap the OK icon when the amount has been set.	新しい入場料を入力します。\n金額を入力後、\nＯＫアイコンをタッチしてください。	
+0	57	MA_ADMISSION_CONFIRMED	<1>The new price has been set at %s.	<1>新しい入場料は%sで決定しました。	
+0	58	MA_SETTINGS_DESCRIPTION	Adjust settings for individual systems on this screen.<P>To confirm selections, draw a check mark or circle icons with the stylus.	この画面では、各種システムの設定を行います。<P>選択の決定は\nタッチペンでアイコンをチェック、\nあるいは○で囲んでください。	
+0	59	MA_GAME_SPEED	Adjust the overall game speed.	ゲーム全体の進行速度を切り替えます。	
+0	60	MA_MAP_BOX	Display the entire park map. Use the stylus to travel directly to any location you like.	全体マップを表示します。\nタッチペンで目的の場所へ\nダイレクトに移動が可能です。	
+0	61	MA_SOUND_DESCRIPTION	Change the game music.	ゲーム中に流れる音楽を変更します。	
+0	62	MA_SAVE_DESCRIPTION	Save current game progress.	途中経過をセーブします。	
+0	63	MA_LOAD_DESCRIPTION	Load a saved game.	セーブデータをロードします。	
+0	64	MA_GIVEUP_DESCRIPTION	Give up building the current park and return to the Country selection screen.	この国のテーマパーク経営から手を引きます。	
+0	65	MA_GAME_SPEED_HELP	Adjust the speed at which the park operates. Tap one of the four speed triangles in the center of the screen.	ゲームの進行速度を切り替える事ができます。\n画面中央のスピードゲージを\nタッチしてください。	
+0	66	MA_SOUND_HELP	Change the game music. Tap the icon to take a listen. Check or circle the icon to confirm your selection.	ゲーム中の音楽を変更します。\nアイコンをタッチして試聴。\nチェック、あるいは○で決定となります。	
+0	67	MA_SAVE_HELP	Save current game progress. Tap the OK icon to save your game.	途中経過をセーブします。\nよろしければＯＫアイコンを\nタッチしてください。	
+0	68	MA_SAVE_PROGRESS	<1>Now saving... Please don't turn the power off.	<1>現在セーブ中。\nセーブが終了するまで\n電源をＯＦＦにしないでね…	
+0	69	MA_SAVE_END	<2>OK! Save complete.	<2>ＯＫ、セーブ完了です！	
+0	70	MA_LOAD_HELP	Load a saved game. Tap the OK icon to load a game.	セーブデータをロードします。\nよろしければＯＫアイコンを\nタッチしてください。	
+0	71	MA_LOAD_PROGRESS	<1>Now loading... Please be patient.	<1>現在ロード中。\nちょっと待ってね…	
+0	72	MA_LOAD_END	<2>OK! Load complete! Now you can continue playing your in-progress game.	<2>ＯＫ、ロード完了！\n中断データから再開です、よろしくね。	
+0	73	MA_GIVEUP_CONFIRM	<1>Give up building the current park and return to the Country selection screen. All of your unsaved game data will be lost. Is that OK?	<1>ギブアップします。\nセーブしていない場合、このプレイデータは\n無くなっちゃうけど…それでもいい？	
+0	74	MA_RIDE_INFO	Try tapping the various icons. It's possible to make all kinds of adjustments to individual rides.	色々なアイコンにタッチしてみてください。\nアトラクション毎に\n様々な調整を行うことが可能です。	
+0	75	MA_MAX_PEEPS	Change the ride's single-ride capacity. Tap the cursor to adjust.	アトラクションの１回あたりの\n定員数を変更します。カーソルをタッチして\n数値を調整してください。	
+0	76	MA_REPAIR	This shows the ride's durability. Tap the gauge to have Mechanics make repairs.	アトラクションの耐久度を表します。\nゲージをタッチすると、\nメカニックが修理を行います。	
+0	77	MA_SPEED	Change the ride's operating speed. Tap the gauge to adjust. Faster rides need repairs more often.	アトラクションの運転速度を変更します。\nゲージをタッチすると、\n運転速度が変更されます。	
+0	78	MA_TIME	Change the ride's single-ride duration. Tap the gauge to adjust.	アトラクションの１回あたりの\n運転時間を変更します。ゲージをタッチして\n時間を変更してください。	
+0	79	MA_RIDE_INFO_SHOP	The shop's current status. You can adjust prices and the amount of seasoning used.	このショップの現在の状態です。\n販売価格、味付け量の変更が可能です。	
+0	80	MA_INFO_SIDE_HELP	The sideshow's current status. You can adjust winning percentages, prize values and play costs.	このサイドゲームの現在の状態です。\n勝率、景品価格、ゲーム料金の変更が可能です。	
+0	81	MA_INFO_GURD_HELP	The Guard's current status. You can adjust his salary and placement.	このガードマンの現在の状態です。\n給与の変更、配置位置の移動が可能です。	
+0	82	MA_MOVE_STAFF	<1>To change the %s's position, please designate the %s's new spot and tap the OK icon.	<1>%sの配置位置を変更します。\n%sの位置を指定して、\nＯＫアイコンをタッチして頂けますか？	
+0	83	MA_RIDE_INFO_STAFF	The Entertainer's current status. You can adjust his salary and placement.	このエンターテナーの現在の状態です。\n給与の変更、配置位置の移動が可能です。	
+0	84	MA_MOVE_STAFF2	<1>To change the Entertainer's position please designate the Entertainer's new spot and tap the OK icon.	<1>エンターテナーの配置位置を変更します。\n位置を指定後、\nＯＫアイコンをタッチして頂けますか？	
+0	85	MA_INFO_HANDY_HELP	The Handyman's current status. You can adjust his salary, placement and cleaning area.	このスイーパーの現在の状態です。\n給与の変更、配置位置の移動、\n清掃範囲の指定が可能です。	
+0	86	MA_MOVE_STAFF3	<1>To change the Handyman's position, please designate the Handyman's new spot and tap the OK icon?	<1>スイーパーの配置位置を変更します。\n位置を指定後、\nＯＫアイコンをタッチして頂けますか？	
+0	87	MA_PLACE_HANDYMAN_ROUTE	<1>To set the Handyman's cleaning route, tap the starting point of the area you want the Handyman to clean.<P>You can set more than one starting point. Select the areas you want cleaned and then touch the OK icon when you're done.	<1>スイーパーの清掃ルートを指定します。\nまず清掃範囲の基点を\nタッチペンで指定してくださいね。<P>基点の指定は複数できます。\n範囲を指定した後、\nＯＫアイコンをタッチして頂けますか？	
+0	88	MA_INFO_MECA_HELP	The Mechanic's current status. You can adjust his salary, placement, and maintenance area.	このメカニックの現在の状態です。\n給与の変更、配置位置の移動、修理する\nアトラクションの指定が可能です。	
+0	89	MA_MOVE_STAFF4	<1>To change the Mechanic's position, please designate the Mechanic's new spot and tap the OK icon.	<1>メカニックの配置位置を変更します。\n位置を指定後、\nＯＫアイコンをタッチして頂けますか？	
+0	90	MA_MECANIC_REPAIR	<1>This Mechanic wants to go to work. Would you please tap the ride that requires repairs?	<1>メカニックを修理に向かわせますね。\n修理したいアトラクションを\nタッチして頂けますか？	
+0	91	MA_ERASER	<1>The "Erase" icon is on. This will allow you to erase things in your park.	<1>消しゴムアイコンがＯＮの状態です。\nタッチペンで様々な施設が撤去できますね。	
+0	92	MA_WAREHOUSE_FULLMODE	The warehouse and inventory controls can only be accessed in "Full" mode.	在庫管理は、｢なんでもできる｣モードで\n行ってください。	
+0	93	MA_RESEARCH_SANDBOX	Unfortunately, research cannot be done in "Sandbox" mode	｢つくるのが楽しい｣モードでは、\n研究を行うことができません。	
+0	94	MA_STOCK_DISABLE	You can only trade stocks in "Full" mode.	このゲームモードでは、\n株取引を行うことができません。	
+0	95	MA_CONTINUE_NEXT_COUNTRY	<1>When you are ready to sell your park and go to another country, go to the "System" menu and choose "Next country".	<1>売却、キャンセルしました。\nでは引き続き、この国をプレーしましょう。<P>クリアした履歴が保存されていませんね。\n中断の際は、忘れずにセーブをお願いします。<P>次の国をプレーしたい場合、\nゲームアイコン”システム”から\n”次の国へ”を選択してくださいね。	
+0	96	MA_SELL_CONFIRM	<1>To make another park, you need to sell this one, and won't be able to return to it. Do you want to sell this park?	<1>新しい国をプレーする為にはセーブの後、\n今の国を売却しなくてはならないの。<P>一度売却すると、この国は\nあなたの物ではなくなるんだけど…\nいいかしら？	
+0	97	MA_UNLOCKED_ITEM	You now have access to:	新たな要素が追加されました！	
+0	98	MA_LEVEL_CLEARED	<2>Congratulations!\nYou've cleared this country.\nLet's go to another country!	<2>おめでとう！クリアノルマ達成よ！\nでは、新しい国へ向かいましょう！	
+0	99	MA_PARK_SOLD	<1>You've sold your park! 	<1>この国を売却します。売却手続きの為、\nセーブを行うわ。少々お待ちください。	
+0	100	M_LOAD_PROFILE_END	<2>OK! Load complete! 	<2>ＯＫ、ロード完了！\n中断データから再開です、よろしくね。	
+0	101	MA_PLACE_TUBE	<1>Place the Water Slide house alongside the water slide course. Remember, the course needs to form a complete loop.	<1>ウォータースライダーは、\n環状に繋がった専用コースに\n隣接させて設置して。	
+0	102	MA_PLACE_GOKART	<1>Place the Go-Kart house alongside the go-kart course. Remember, the course needs to form a complete loop.	<1>ゴーカートは、\n環状に繋がった専用コースに\n隣接させて設置して。	
+0	103	MA_GAME_OVER	<4>Oh, no. You have... gone bankrupt... this means we're gonna have to close the park.	<4>本日付けで破産宣告…\nこのパークは閉園となりました…\n私が至らなかったからかな…	
+0	104	MA_OUT_OF_THING	<1>Oh, dear. There are simply too many things in your park.<P>To build more, you need to remove some existing things.	<1>これ以上配置できないようです。\n新たに配置したい場合、\n設置物を撤去してくださいね。	
+0	105	MA_OUT_OF_STAFF	<1>It seems there are too many things in your park.<P>To place a new staff member, make some room by removing existing things.	<1>これ以上スタッフを雇用できない状態です。\n新たにスタッフを雇用したい場合、\n設置物を減らしてくださいね。	
+0	106	MA_OUT_OF_CUSTOMER	<1>Oh, dear. There are too many items in your park. It seems as if even your customers won't be able to enter!<P>Make some room by removing some existing things.	<1>これ以上お客さんが入園できない状態です。\nさらにお客さんを招き入れたい場合、\n設置物を撤去してくださいね。	
+0	107	MA_WOODEN_COST	<1>Big Dipper rails cost %s apiece.	<1>ウッドコースターのレールを敷設中です。\nレールの敷設には\n%sのコストが発生しますね。	
+0	108	MA_TUBE_COST	<1>Roller Coaster rails cost %s apiece.	<1>ジェットコースターのレールを敷設中です。\nレールの敷設には\n%sのコストが発生しますね。	
+0	109	MA_MONO_COST	<1>Monorail rails cost %s apiece.	<1>モノレールのレールを敷設中です。\nレールの敷設には\n%sのコストが発生しますね。	
+0	110	MA_NEXT_COUNTRY_TITLE	Sell your park and build a new park in a new country.	すでにクリア条件を満たしています。\n新たに別の国でテーマパーク経営を行います。	
+0	111	MA_ENDING	Thank you for playing!\nCongratulations!	Thank you for playing!\nおめでとう！\nあなたこそ世界一のテーマパーク王です！	
+1	0	CELL1141			
+1	1	AT_BANKRUPT	___NOT_USED__DONT_TRANSLATE	___NOT_USED__DONT_TRANSLATE	
+1	2	AT_RIDE_OLD	<3>The %s is showing its wear and tear. It's time to replace it with something new.	<3>長期運行の影響で\n%sが老朽化\nしています。ただちに交換しましょ。	
+1	3	AT_SEND_MECANIC	<3>Oh, dear! The %s is in very bad shape! Get a Mechanic in there before something terrible happens!	<3>%sに動作の異常\nを見つけました。事故に発展する前に、\nメカニックを呼びましょ。	
+1	4	AT_LOW_STOCK	<4>Hmm... You might be running low on %s. I can only count %d left. You must be careful!	<4>%sの在庫の\n減少が著しいです。\n残り%d…気を付けて下さい。	
+1	5	AT_PEOPLE_STUCK	<3>We've got an emergency situation in the park! Someone's stuck! Quick, it's time for a search and rescue!	<3>はまって出られなくなったお客さんがいます！\n早く居場所を見つけて救出しましょう！	
+1	6	AT_NO_ONE_COMING	<4>Are you trying to bankrupt the park? The price of admission's too high! You'd better think it over.	<4>入場料金、高すぎよ！どうしたの一体？\n倒産も考えられるわ、早く考え直して！	
+1	7	AT_STUPID_TICKET_PRICE	<5>Listen, no one's going to pay this much to come to the park. Please come to your senses and lower the price.	<5>ねぇ、この入場料じゃ誰も来なくなるわ！\n一度、冷静に考えてみて。\n早めの値下げ、検討しましょう！	
+1	8	AT_TICKETS_MUCH_TOO_EXPENSIVE	<5>People are complaining angrily about the high admission price! Lower it now, while there's still time!	<5>入場料金が常識外れな額からか、\nクレームが殺到しています！\n今なら間に合うわ、考え直して！	
+1	9	AT_TICKETS_VERY_EXPENSIVE	<4>I think the price of admission's a bit steep. You might want to lower it.	<4>入場料金が少し高いかな…\nもうちょっとだけ値下げしてみてはどう？	
+1	10	AT_STOCK_ARRIVED	<1>Looks like our order of %d %s has arrived. Make sure you confirm that later.	<1>オーナー、発注した\n%sの在庫、%d分が\n入荷しました。後で確認に行きましょ。	
+1	11	AT_FREE_TICKETS	<3>We all know how generous you are, but this is a business! The admission price must at least cover our operational costs!	<3>オーナーの愛の深さは知っています。\nでもこれはビジネス。\nせめて運営できる入場料の設定を！	
+1	12	AT_MAD_TICKET_PRICE	<5>You can't be serious, can you? You must do something about the admission price! I do NOT want this park to go bankrupt!	<5>アナタはそんなに脇の甘い人じゃないはず。\n安すぎる入場料、なんとかして！\n破産なんてイヤ！	
+1	13	AT_TICKETS_WAY_TOO_CHEAP	<1>Don't you think ticket prices are a bit too low? It's nothing bad, but you should raise prices as soon as you can.	<1>入場料金が安すぎるんじゃない？\n心配することないわ、早く値上げしましょ。	
+1	14	AT_TICKETS_MUCH_TOO_CHEAP	<5>We're trying to improve our park, right? We need to raise the admission price a notch!	<5>私が望んでいたのはボランティアではなくて\nテーマパークの運営よ？\nお願い、入場料を上げてー！	
+1	15	AT_TICKETS_VERY_CHEAP	<4>I know how kind-hearted you are, but... don't you think it would be wise to raise the admission price a bit?	<4>あなたの心の広さは良く知ってるわ…\nでももう少し、\n値上げしてもいいんじゃないかしら？	
+1	16	AT_TOO_MUCH_LITTER	<5>The park is filthy! And I hate filth! Let's hire a handyman or two before we're drowning in complaints!	<5>テーマパークがゴミだらけよ？\n汚いのはイヤ！苦情が来る前に、\nスイーパーを雇用しましょう！	
+1	17	AT_TOTAL_SHOPS	<1>Seeing the number of rides we have, I think we can support %d more shops without a problem.	<1>アトラクション数の比率から考えると、\nショップをあと%d軒、\n造ってみても大丈夫みたい。	
+1	18	AT_TAKE_OUT_LOAN	<1>Are you having difficulty raising funds? Why not take a loan from the bank? I'm sure you can handle it.	<1>資金繰りで悩んでいるの？\n銀行からの貸付けとか、どうかしら？\nアナタなら上手くやれるはず！	
+1	19	AT_TOTAL_STAFF	<3>When things seem to be going poorly, reducing staff size is one way to cut costs.	<3>運営が波に乗らない、こんな時。\n非情に徹してスタッフを解雇するのも\n手段の一つよ。	
+1	20	AT_MAKE_RIDE_FASTER	<4>It seems some guests are finding the rides rather unthrilling. Perhaps you should turn up the speed?	<4>スリルが足りなくて、\n退屈しているお客様がいるみたい。\nアトラクションのスピードを上げてみては？	
+1	21	AT_WANDERRING	<1>Looks like some of the guests are having problems finding the exit. Perhaps you should place some Sign Posts to help.	<1>出口がわからないお客様がいるようね。\n案内標識を設置して、\n導いてあげてくださいね。	
+1	22	AT_BUY_NEW_RIDE_FOR_BORED_PEOPLE	<4>The park feels a bit stale. Try spicing things up with a new ride. The %s, perhaps.	<4>ちょっとマンネリ過ぎるわ…\n%sみたいな\nアトラクションで新鮮味を出してみては？	
+1	23	AT_TICKET_PRICE_JUST_RIGHT	<2>The ticket prices for the rides are spot on. You're a genius!	<2>入場料の価格設定がとても的確です。\nさすがオーナー、\nわかってらっしゃるわね。	
+1	24	AT_TICKETS_SLIGHTLY_TOO_CHEAP	<1>Based on traffic into the park, it looks like you can raise ticket prices without any problems.	<1>統計の結果、今の状態なら\nもう少し入場料金を値上げしても\n問題ないと考えます。検討してみて。	
+1	25	AT_TICKETS_SLIGHTLY_TOO_EXPENSIVE	<1>I think the admission prices might be a bit high for a park of this size. A slight drop in the price might be a good idea.	<1>現状のパーク規模を考えると、\n入場料が高いです。\n値下げを行った方が良いでしょう。	
+1	26	AT_PUT_SHOP_PRICE_UP	<1>Considering the data at hand, I recommend raising the price of %s by %d.	<1>統計の結果、%sの\n価格を%dだけ上げた方が\n良いと判明しました。	
+1	27	AT_PUT_SHOP_PRICE_DOWN	<1>Considering the data at hand, I recommend dropping the price of %s by %d.	<1>統計の結果、%sの\n価格を%dだけ下げた方が\n良いと判明しました。	
+1	28	AT_BUY_ENTERTAINER_FOR_BORED_PEOPLE	<1>Bored guests are bad news. I recommend hiring some entertainers to keep people happy.	<1>退屈したお客様を飽きさせない為、\nエンターテナーを雇用すると良いでしょう。	
+1	29	AT_BAD_SIGN	<3>It looks like a lot of guests are having trouble finding the exit. I recommend placing more Sign Posts.	<3>出口が把握できず迷っているお客様がいます。\n案内標識を、もっと設置しましょうね。	
+1	30	AT_RIDES_TOO_FAR_APART	<3>Looks like the rides are too far apart. Move them closer together, and you'll have happier guests.	<3>アトラクション間の距離が遠すぎますね。\nもっと近付けることで、客足も良くなりますよ。	
+1	31	AT_QUEUE_LENGTH	<3>The lines for %s are way too long. Go ahead and make the queues the appropriate length.	<3>%sの行列が\n長すぎます。整列歩道を適度な長さに\n整備しなおしましょう。	
+1	32	AT_AVG_LEAVING	<3>We're receiving complaints that the ride placement in the park is poor and that it's ruining the overall experience.	<3>「アトラクション等の配置が悪い」\n「全体的に面白くない」\nお客様からクレームがきています。	
+1	33	AT_RAD_BUS_BECOME_BIG	<2>Look at this. Our buses have been redesigned! They can now carry up to %d guests!	<2>ＯＫ。\n研究開発の結果、バスが大型化されました。\n%d人乗れるようになりますよ！	
+1	34	AT_RAD_RIDE_UPGTADE	<2>More great work from our Research and Development team! They've upgraded %s to version %d.%d!	<2>ＯＫ、研究開発の成果です。\n%sのバージョンが\n%d.%dにアップグレードされました！	
+1	35	AT_SHOP_PRICE_UP	<1>Don't you feel we should increase the price of our %s? I feel %s would be a good price.	<1>%sの価格を、\n値上げしてみてはどうですか？\n%s辺りが適正な価格でしょうね。	
+1	36	AT_SHOP_PRICE_DOWN	<1>Don't you feel we should lower the price of our %s? I feel %s would be a good price.	<1>%sの価格を、\n値下げしてみてはどうですか？\n%s辺りが適正な価格でしょうね。	
+1	37	AT_TRAINING_RESULT	<2>Here is the result of our staff training. The version of %s has been upgraded to %d.%d!	<2>スタッフ研修の成果です。\n%sのバージョンが\n%d.%dにアップグレードされたわ！	
+1	38	AT_RAIL_OPEN	<1>In order to open this attraction, the rails need to be connected in a loop.	<1>このアトラクションを運行する為には\nレール、又はコースを\nつなげてくださいね。	
+2	0	CELL1541			
+2	1	NT_STAFF_START	<1>We have received a negotiation request from the labor union.<P>Their representative is waiting to speak with you in the other room. Good luck!	<1>労働組合から、労使交渉の申し出がありました。\n代表者が別室で待機中です。\n…頑張ろうね。	
+2	2	NT_GOODS_START	<1>We've received a price negotiation request from a distributor.<P>Their representative is waiting for you in the other room. Good luck!	<1>卸業者から仕入れ値交渉の申し出がありました。\n代表者が別室で待機中です。\n…頑張ろうね。	
+2	3	NT_AGREE_AND_BASE_UP	<2>Congratulations! Negotiations were a success! All that needs to be done is to change staff wages by %d.%d%%.	<2>おめでとう！交渉が円満に解決したね！\n賃金引き上げ率\n%d.%d%%で話がまとまったわ！	
+2	4	NT_FAIL_AND_STRIKE	<4>Talks failed, didn't they? Workers have gone on strike and are marching near the park entrance.	<4>交渉決裂だったね…\n入場ゲート付近で、不満を口にするスタッフが\nストライキを起こしているわ…	
+2	5	NT_AGREE_AND_COST_UP	<2>Congratulations! Negotiations were a success! The price of goods will change by %d.%d%%!	<2>おめでとう！交渉が円満に解決したね！\n仕入れ値引き上げ率\n%d.%d%%で話がまとまったわ！	
+2	6	NT_FAIL_AND_STOP_GOODS	<4>Talks failed, didn't they? Prices have gone up by 10%! What's more, all deliveries have been stopped!	<4>交渉決裂だったね…\n仕入れ値10％アップ…\nしかも納品もストップされたわ…	
+3	0	CELL1621			
+3	1	YET_START	<2>Nice work this year. Here's the financial statement for %s.	<2>オーナー、今年も一年ご苦労様！\n%s年度、決算報告を行いますね。	
+3	2	YET_GOOD_AT_FIRST_YEAR	<2>Looks like the first year was a success! Keep up the good work. Use everything you've learned and aim for the top!	<2>初年度から良いスタートを切ったみたい！\nこの調子ね。コツをつかんで上を目指そうね！	
+3	3	YET_BAD_AT_FIRST_YEAR	<4>No profit for the first year... Guess it's time to review some of the basics.<P>Is the front gate open? Are the attractions up and running or are they still turned off?<P>No worries, this is just the beginning. Let's stay calm and work this out together!	<4>初年度は収入が得られなかったかな…\nここでまた、基礎を見つめ直してみましょう。<P>ゲートはちゃんと開いていた？\n運行休止のアトラクションとかあったりしない？<P>…まだ始まったばかりだわ。\nあせらないで、二人三脚で頑張ろうね！	
+3	4	YET_TERRIBLE_MANAGEMENT	<4>The park may very well go bankrupt if things don't turn around next year. Sorry for all the gloom and doom.<P>First, we have to raise the admission price and shop prices. Then we have to figure out how to rebuild the park.<P>This is no place for misplaced pride. I'm with you to the end, so set your mind to it and get busy.	<4>…明るい話じゃなくてごめんなさい。\n来年度の決算で\n破産する可能性が高くなってるわ。<P>ここは一つ、一時的に入場料やショップの値段を\n極端に値上げし、立て直しを計りましょう。<P>今はプライドにこだわっている場合じゃないの。\n覚悟を決めて、私はあなたを信じているから。	
+3	5	YET_BAD_MANGEMENT	<4>I'm really worried about next year. To be honest, it looks like there's a chance the park could go bankrupt.<P>Here's what we'll do. Build new rides to draw in crowds, then get them to spend in the shops! Spend lots!<P>Keep things simple and you're sure to have success. Now let's look at our spending and make sure we're not wasting money.	<4>来年度がとても心配…正直に言うとね、\n破産する可能性も見えてきているの…<P>復習よ。新しいアトラクションで集客力を向上。\nそしてショップでたくさん買い物してもらうの。<P>この基本を守れば、きっと大丈夫。\nあと、無駄な支出はないかしら？\nもう一度確認しようね。	
+3	6	YET_SOSO_MANGEMENT	<2>So you made a slight profit. That's a good sign! Don't worry about me, I'll do all I can to help!	<2>少しずつ収支がプラスになっているわ。\nこの調子よ。私も出来る限り協力するからね！	
+3	7	YET_GOOD_MANAGEMENT	<2>I think you're getting used to park management. Stay focused, though. You can't afford to get overconfident.	<2>経営が徐々に軌道に乗り始めているわ！\nでも油断は禁物。ゆっくりでも、着実にね！	
+3	8	YET_BEST_MANAGEMENT	<2>What a great job you're doing! Keep your talents shining next year and I'll do my best, too!	<2>ＯＫ！オーナーの手腕が見事に発揮されてるわ！\n私も協力する！\n来年もこの調子で頑張りましょ！	
+3	9	YET_YOU_ARE_THE_GOD	<2>You're an amazing businessperson! Managing the park with you is like a dream come true!	<2>あなたってホントすごいわね。\nこんな素敵な人と一緒に仕事が出来て、\nこの瞬間、とても幸福に感じるわ…	
+3	10	YET_ADVICE_ABOUT_SHOP	<1>There are two essential sources of income in a theme park: admission fees and shop sales.<P>Shops are a huge source of income. How do you get guests in your shops? Let's take a look.	<1>基本的に、テーマパークの収入源は\n”入場料”と”ショップの売り上げ”の二つね。<P>ショップは特に大きな収入源。\nなら、どうやってショップにお客様を呼ぶ？\nまずはそれを考えましょ。	
+3	11	YET_ADVICE_ABOUT_RIDE	<1>First, think of the best way to draw in large crowds. Got anything?<P>New rides bring in guests. It's that simple. What are you waiting for? Let's set up some new rides!	<1>お客様を多く集めたい時\nまず、どうしたらいいかしら？<P>新しいアトラクションで、\nお客様の興味を引かせるのはどう？\n積極的にアトラクションを設置していきましょ。	
+3	12	YET_ADVICE_ABOUT_RIDE_SHOP	<1>New rides increase your ability to bring in more guests. Guests buy things. Rides. Guests. Profits. Got it?<P>That's how money moves in a theme park. Understand this and your park will do just fine.	<1>アトラクションで集客力を高め、\n集まったお客様に\nショップでお買い物してもらう。<P>これが経営の基本的な流れよ。\nこの流れを把握した上で、上手に\nテーマパークを経営しましょ。	
+3	13	YET_ADVICE_ABOUT_NEWS	<1>Thanks to advancements in research and development, you can perform new actions. Too much to keep up with?<P>My advice is to stay focused on developing new rides and shops.	<1>研究開発で多くの事が出来るようになったわ。\n選択肢が増えると、\nどれから試していいか迷うわよね？<P>とりあえず\n新規アトラクション、ショップの開発に\n力を入れてみたらどうかしら？	
+3	14	YET_ADVICE_ABOUT_BUY_SHARES	<1>Paying dividends on one's own stock is something we cannot afford to do.<P>When you've got enough cash, I think you should buy back your own stock.	<1>自社株の配当金は、\n馬鹿にできない大きな支出なの。<P>余裕があるなら、\n自社株を買い占めてしまっても\n良いかもしれないわ！	
+3	15	YET_BONUS	<2>I have some great news! Your theme park sponsor has taken note of your excellent management skills!<P>You will be receiving a bonus of %s! Congratulations!	<2>オーナー、朗報よ。\nテーマパークのスポンサーから、\n今年度の経営姿勢が高く評価されたわ。<P>計%sのボーナスが\n臨時で支給されます、おめでとう！	
+4	0	CELL1791			
+4	1	YET_ADVICE_PARK_VALUE	<1>Try thinking of ways to cut labor costs. Let's take a look at Park Sanitation -- the Handymen.<P>The cleaning routes function, have you ever used it? It allows you to make Handymen focus their work in specific areas.<P>Using this function is more efficient than just hiring more staff to cover areas at random.	<1>人件費を抑えるやり方を考えてみない？\nまずは衛生面で大事なスイーパーね。<P>清掃エリア指定機能って使ってる？\n汚れやすい場所を\n重点的に清掃させることができるのよ。<P>多くのスタッフを雇用するよりも、\nこの機能を上手く利用してみたらどうかしら？	
+4	2	YET_ADVICE_STAFF_GURD	<1>Having a small, but very effective staff is one way to save money.<P>You're using the "pin set" function to move workers directly from one point to another, right? I hope so.	<1>少ない人数でも効率的に運用すれば\n人件費を大幅に削減する事ができるの。<P>目的地にスタッフを直接移動させる\nピンセット機能、分かるわよね？\nこれを有効に使いましょう。	
+4	3	YET_ADVICE_LOOP	<1>To improve your park, you have to understand what it is that makes guests unhappy.<P>Guests get frightened if there are criminals wandering about. Hire guards to nip that problem in the bud.	<1>より良いテーマパークを目指す為には、\nお客様の気持ちになって物事を考える\n思考の切り替えが必要ね。<P>アウトローを放置すれば、お客様が怖がるわ。\nガードマンを雇い、早めに撃退しましょう。	
+4	4	YET_ADVICE_FACILITY	<1>To improve your park, you have to understand what it is that makes guests unhappy.<P>Waiting in long lines is boring, right? It's up to you to find ways to keep guests from growing impatient.<P>Have entertainers keep guests happy and try planting trees by queues. Trees keep people cool and calm.	<1>より良いテーマパークを目指す為には、\nお客様の気持ちになって物事を考える\n思考の切り替えが必要ね。<P>順番待ちのお客様の退屈は、不満に直結するわ。\nお客様を飽きさせない心掛けが重要よ。<P>エンターテナーを配置したり、\n整列歩道に木を並べるだけでも\n気を紛らわせる事ができるの！	
+4	5	YET_ADVICE_SHOP	<1>To make your park better, you have to concentrate each and every day on ways to keep guests from becoming unhappy.<P>If guests wander aimlessly around the park for too long, they're going to get tired and eventually go home.<P>Direct guests with Sign Posts and one-way signs. Don't worry about having too many, just place them where they're needed.	<1>より良いテーマパークを目指す為には、\nお客様の気持ちになって物事を考える\n思考の切り替えが必要ね。<P>お客様、園内を長い時間歩き続けると、\n歩き疲れて帰ってしまうわ。<P>案内標識、一方通行路を使ってみましょう。\n数は気にしないで。\nまずはあなたの好きに配置してみて。	
+4	6	YET_ADVICE_CAUTION_LITTLE_THINGS	<1>Try thinking of ways to cut labor costs. Let's take a look at Park Sanitation -- the Handymen.<P>The cleaning routes function, have you ever used it? It allows you to make Handymen focus their work in specific areas.<P>Using this function is more efficient than just hiring more staff to cover areas at random.	<1>人件費を抑えるやり方を考えてみない？\nまずは衛生面で大事なスイーパーね。<P>清掃エリア指定機能って使ってる？\n汚れやすい場所を\n重点的に清掃させることができるのよ。<P>多くのスタッフを雇用するよりも、\nこの機能を上手く利用してみたらどうかしら？	
+4	7	YET_ADVICE_PARK_VALUE2	<1>Having a small, but highly effective staff is one way to save money.<P>You're using the "pin set" function to move workers directly from one point to another, right? I hope so.	<1>少ない人数でも効率的に運用すれば\n人件費を大幅に削減する事ができるの。<P>目的地にスタッフを直接移動させる\nピンセット機能、分かるわよね？\nこれを有効に使いましょう。	
+4	8	YET_ADVICE_STAFF_GURD2	<1>To improve your park, you have to understand what it is that makes guests unhappy.<P>Guests get frightened if there are criminals wandering about. Hire guards to nip that problem in the bud.	<1>より良いテーマパークを目指す為には、\nお客様の気持ちになって物事を考える\n思考の切り替えが必要ね。<P>アウトローを放置すれば、お客様が怖がるわ。\nガードマンを雇い、早めに撃退しましょう。	
+4	9	YET_ADVICE_LOOP2	<1>To improve your park, you have to understand what it is that makes guests unhappy.<P>Waiting in long lines is boring, right? It's up to you to find ways to keep guests from growing impatient.<P>Have entertainers keep guests happy and try planting trees by queues. Trees keep people cool and calm.	<1>より良いテーマパークを目指す為には、\nお客様の気持ちになって物事を考える\n思考の切り替えが必要ね。<P>順番待ちのお客様の退屈は、不満に直結するわ。\nお客様を飽きさせない心掛けが重要よ。<P>エンターテナーを配置したり、\n整列歩道に木を並べるだけでも\n気を紛らわせる事ができるの！	
+4	10	YET_ADVICE_FACILITY2	<1>To make your park better, you have to concentrate each and every day to keep guests from becoming unhappy.<P>If guests have wander around the park all day, they're going to get tired and eventually go home.<P>Direct guests with Sign Posts and one-way signs. Don't worry about having too many, just place them where they're needed.	<1>より良いテーマパークを目指す為には、\nお客様の気持ちになって物事を考える\n思考の切り替えが必要ね。<P>お客様、園内を長い時間歩き続けると、\n歩き疲れて帰ってしまうわ。<P>案内標識、一方通行路を使ってみましょう。\n数は気にしないで。\nまずはあなたの好きに配置してみて。	
+5	0	CELL1911			
+5	1	YET_ADVICE_PLACE_1	<2>Let me tell you an advanced shop combination to try. I bet it will make profits rise!<P>Place a Big Time Fry and Pokey Cola shop next to each other.<P>Salty fries equal thirsty guests. It's kind of sneaky, but it works.	<2>アトラクション、ショップの\n効果的な組み合わせを教えるわね。\nひと工夫で売り上げアップ、間違いなし！<P>塩分を増やしたビッグフライポテトの隣に\nドンキーコーラを設置してみて。<P>喉が渇いたお客様、きっと飲み物を\n欲しがるでしょうね。ズルいんじゃないかって？\nこれもれっきとしたテクニックよ！	
+5	2	YET_ADVICE_PLACE_2	<2>Let me tell you an advanced ride and shop combination to try. I bet it will make profits rise!<P>Kids love the Bouncy Castle, right? So place a Whippy Ice Cream stand nearby and get out of the way!<P>You know kids love ice cream, so it's only logical that you'll see an increase in Whippy Ice Cream sales!	<2>アトラクション、ショップの\n効果的な組み合わせを教えるわね。\nひと工夫で売り上げアップ、間違いなし！<P>バウンシーキャッスルには子供が多く集まるわ。\nそこにウォーリーアイスを出店するの！<P>子供はみんなアイスクリームが大好き。\nウォーリーアイスの売り上げアップ間違いなし！	
+5	3	YET_ADVICE_PLACE_SHOP_WITH_RIDE	<2>Adults flock to hair-raising attractions like Ghost Houses, don't they?<P>Here's what you do, set up a Coffee Shop and a Saloon in the same area as a Ghost House.<P><2>Why, you ask? It's because adults will wander about your shops and profits will go through the roof!	<2>ゴーストハウスはとっても怖いアトラクション。\nスリルを求める大人が多く集まるわ。<P>そこにコーヒーショップや\nビアハウスを出店してみるの。<P>大人が大勢ウロウロしてるから、\n売り上げもどんどんアップ！\nこれには期待できるわね！	
+5	4	YET_ADVICE_PLACE_FAC_WITH_RIDE	<2>The right scenery can add appeal to shops and rides to increase earnings.<P>For example, place some Spooky Trees near ghost houses.<P>The added creepiness will increase the appeal of the rides and more guests will come.	<2>アトラクション、ショップは景観を演出すれば\nもっと収益をアップできるのよ。<P>ゴーストハウスの周りに\n”怪しい木”を\nたくさん配置してみましょう。<P>これだけで、怖さが格段にアップ！\nこういうさり気ない演出で、\n集客力もきっとアップするわ！	
+5	5	YET_ADVICE_LEAD_PEOP	<2>Let me teach you a technique I learned from watching how people move through amusement parks.<P>It's a good idea to place a Balloon World and souvenir shops near the park entrance.<P>Everyone has to pass through the gates, and they'll be more likely to buy things on their way out than on their way in!	<2>導線とよばれる、人の動きと流れを利用した\nとっておきの集客テクニックを教えるわね。<P>バルーンストア等のおみやげ店は\n入場ゲート付近に出店してみて。<P>テーマパークを楽しんだお客様、\n皆、帰りは出口に向かうはずでしょ？\nそれをうまく利用しましょ！	
+5	6	YET_ADVICE_FOOD_AMOUNT	<2>Let me tell you an advanced shop combination to try. I bet it will make profits rise!<P>Place a Big Time Fry and Pokey Cola shop next to each other.<P><2>Salty fries equal thirsty guests. It's kind of sneaky, but it works!	<2>アトラクション、ショップの\n効果的な組み合わせを教えるわね。\nひと工夫で売り上げアップ、間違いなし！<P>塩分を増やしたビッグフライポテトの隣に\nドンキーコーラを設置してみて。<P>喉が渇いたお客様、きっと飲み物を\n欲しがるでしょうね。ズルいんじゃないかって？\nこれもれっきとしたテクニックよ！	
+5	7	YET_ADVICE_KIDS_MIND	<2>Let me tell you an advanced ride and shop combination to try. I bet it will make profits rise!<P>Kids love the Bouncy Castle, right? So place a Whippy Ice Cream stand nearby and get out of the way!<P>You know kids love ice cream, so it's only logical that you'll see an increase in Whippy Ice Cream sales!	<2>アトラクション、ショップの\n効果的な組み合わせを教えるわね。\nひと工夫で売り上げアップ、間違いなし！<P>バウンシーキャッスルには子供が多く集まるわ。\nそこにウォーリーアイスを出店するの！<P>子供はみんなアイスクリームが大好き。\nウォーリーアイスの売り上げアップ間違いなし！	
+5	8	YET_ADVICE_PLACE_SHOP_WITH_RIDE2	<2>Adults flock to hair-raising attractions like ghost houses, don't they?<P>Here's what you do, set up a coffee shop and a saloon in the same area as a ghost house.<P>Why, you ask? It's because adults will wander about your shops and profits will go through the roof!	<2>ゴーストハウスはとっても怖いアトラクション。\nスリルを求める大人が多く集まるわ。<P>そこにコーヒーショップや\nビアハウスを出店してみるの。<P>大人が大勢ウロウロしてるから、\n売り上げもどんどんアップ！\nこれには期待できるわね！	
+5	9	YET_ADVICE_PLACE_FAC_WITH_RIDE2	<2>The right scenery can add appeal to shops and rides to increase earnings.<P>For example, place some Spooky Trees near ghost houses.<P><2>The added creepiness will increase the appeal of the rides and more guests will come.	<2>アトラクション、ショップは景観を演出すれば\nもっと収益をアップできるのよ。<P>ゴーストハウスの周りに\n”怪しい木”を\nたくさん配置してみましょう。<P>これだけで、怖さが格段にアップ！\nこういうさり気ない演出で、\n集客力もきっとアップするわ！	
+5	10	YET_ADVICE_LEAD_PEOP2	<2>Let me teach you a technique I learned from watching how people move through amusement parks.<P>It's a good idea to place Balloon World and souvenir shops near the park entrance.<P>Everyone has to pass through the gates, and they'll be more likely to buy things on their way out than on their way in!	<2>導線とよばれる、人の動きと流れを利用した\nとっておきの集客テクニックを教えるわね。<P>バルーンストア等のおみやげ店は\n入場ゲート付近に出店してみて。<P>テーマパークを楽しんだお客様、\n皆、帰りは出口に向かうはずでしょ？\nそれをうまく利用しましょ！	
+5	11	YET_ADVICE_FOOD_AMOUNT2	<2>The right scenery can add appeal to shops and rides to increase earnings.<P>For example, place some Spooky Trees near ghost houses.<P>The added creepiness will increase the appeal of the rides and more guests will come.	<2>アトラクション、ショップの\n効果的な組み合わせを教えるわね。\nひと工夫で売り上げアップ、間違いなし！<P>塩分を増やしたビッグフライポテトの隣に\nドンキーコーラを設置してみて。<P>喉が渇いたお客様、きっと飲み物を\n欲しがるでしょうね。ズルいんじゃないかって？\nこれもれっきとしたテクニックよ！	
+6	0	CELL2041			
+6	1	CELL2051	<1>Oh, there you are. I've been waiting for you. Welcome to the Theme Park guided tour.	<1>お待ちしておりました、オーナー。\nテーマパークガイドツアーへようこそ。	
+6	2	CELL2061	<2>I'll be your guide today.	<2>私はクリスタル・モア。\nこれから案内を務めさせていただきます。\nよろしくお願いします。	
+6	3	CELL2071	<1>Let's get started, OK? Pay attention now, because I'm going to teach you the fine art of building a theme park.	<1>それではこれからテーマパークの\n造り方について、チュートリアル形式で\n一緒に学んでいきましょう。	
+6	4	CELL2081	<1>If you want to skip the tutorial, you can always press the "Start" button.	<1>その前にひとつ。スタートボタンで、\nいつでもこのガイドツアーをスキップできます。\n覚えておいてくださいね。	
+6	5	CELL2091	<1>Are you ready? All right, here we go. To begin with, let's place some Paths.	<1>準備はよろしいですか？\nでは、まず最初に”歩道”を敷設しましょう。	
+6	6	CELL2101	<1>Paths, as I'm sure you'll agree, are essential to moving freely around the park.	<1>お客様にパークを快く楽しんでもらう為には、\n自由に移動できる歩道が必要不可欠です。	
+6	7	CELL2111	<1>Please note the flashing icon. That is what is called the "Path" icon. Would you tap it, please?	<1>点滅しているアイコンを御覧下さい。\nこれが”歩道アイコン”です。\nタッチして頂けますか？	
+6	8	CELL2121	<1>Now observe the park screen. Please use the stylus to trace the flashing line.	<1>パーク画面を御覧下さい。\n点滅するラインの上を、\nタッチペンでなぞってみてください。	
+6	9	CELL2131	<1>Look at that! It's your first Path! Go ahead and make another one just for practice.	<1>歩道が敷けましたね。\nでは同じ要領でもう一つ、\n歩道を敷設してみましょう。	
+6	10	CELL2141	<2>OK. Simple, isn't it? All right then, on with the show!	<2>ＯＫ。簡単ですよね？\nでは、オーナー。\nこの調子で学んで行きましょう。	
+6	11	CELL2151	<1>Next, we should place some rides. You can't have a theme park without them!	<1>それでは次に、テーマパークになくてはならない\n”アトラクション”を設置しましょう。	
+6	12	CELL2161	<1>Look, it's another flashing icon for you to tap. It's the "Place Ride" icon.	<1>点滅している”アトラクション設置アイコン”\nをタッチして頂けますか？	
+6	13	CELL2171	<1>I'm sure you noticed how the screens switched positions, right? The lower screen is now the "Buy Ride" screen.	<1>画面が切り替わりましたね。\n下画面を御覧下さい。\nこれが”アトラクション購入画面”です。	
+6	14	CELL2181	<1>This is the place where you purchase rides for the park. 	<1>アトラクションはここで購入します。	
+6	15	CELL2191	<1>Please tap the "Bouncy Castle" icon to see a description of the ride.	<1>それでは、\nバウンシーキャッスルを\nタッチして頂けますか？	
+6	16	CELL2201	<1>Now that you know the features of the ride, let's put it in the park.	<1>バウンシーキャッスルの説明文が\n表示されました。アトラクションの特徴は\nここで把握しましょう。	
+6	17	CELL2211	<1>Use the stylus to either check it or draw a circle around the Bouncy Castle.	<1>次にバウンシーキャッスルを”チェック”\n又は○で囲んでみましょう。	
+6	18	CELL2221	<1>The screens have switched back now, haven't they? Since you've selected Bouncy Castle, go ahead and place it.	<1>再び画面が切り替わりました。\nそれでは選択中の\nバウンシーキャッスルを配置しましょう。	
+6	19	CELL2231	<1>See the flashing location? That's where I want you to place the Bouncy Castle.	<1>タッチペンで\nバウンシーキャッスルを点滅している場所に\n移動させてください。	
+6	20	CELL2241	<1>Once it is in the right place, the OK button will appear. Please tap the OK button.	<1>位置が決まると、\nＯＫアイコンが表示されるはずです。\nＯＫアイコンをタッチして頂けますか？	
+6	21	CELL2251	<1>Very good. The Bouncy Castle is now placed in the park. However, it's still not quite ready to open.	<1>問題なく配置できましたね。ですが、\nこのままではアトラクションは機能しません。	
+6	22	CELL2261	<1>Do you know what else you need? An entrance and an exit, of course!	<1>アトラクションには”入口”と”出口”\nこの二つを用意する必要があるんです。	
+6	23	CELL2271	<1>Let's go ahead and set those up. First, let's do the entrance.	<1>それらの配置をこれから行いましょう。\nじゃあ、まずは入口の指定から。	
+6	24	CELL2281	<1>Will you tap the flashing spot, please? This is where the entrance will be. Tap OK to confirm your placement. 	<1>点滅している場所をタッチすると、\nＯＫアイコンが表示されます。\nＯＫアイコンをタッチして頂けますか？	
+6	25	CELL2291	<1>Great! The entrance is placed. Next, let's set up the exit.	<1>ＯＫ。入口が配置されましたね。\nでは次に出口の配置をしましょう。	
+6	26	CELL2301	<1>Will you tap the flashing spot, please? This is where the exit will be. Again, the OK icon is used to confirm.	<1>入口と同じように、点滅している\n場所をタッチした後、表示される\nＯＫアイコンをタッチして頂けますか？	
+6	27	CELL2311	<2>All right! Both the entrance and exit have been placed. The ride is now ready to open!	<2>出入口の配置、完了です。\nこれで準備が整いました。\nアトラクション運行開始です！	
+6	28	CELL2321	<1>However, there's a rule for you to remember. It concerns the placement of entrances and exits for rides.	<1>オーナー、ここで出入口の設置に関して、\n大事なルールがあります。	
+6	29	CELL2331	<1>Both a ride's entrance and exit must be placed next to a Path.	<1>入口と出口、この二つは\n必ず歩道に隣接する場所に\n配置する必要があるんです。	
+6	30	CELL2341	<3>If they aren't, Guests will have no way of knowing the ride is open.	<3>出入口が繋がってなければ、\nお客様がアトラクションを利用できなくなる事、\n容易に想像できますよね？	
+6	31	CELL2351	<2>I can see you understand the importance of this rule. I'm sure I won't have to tell you twice, will I? 	<2>このルール、ぜひ覚えておいてくださいね。\nフフフ、オーナーなら一度言った事、\n忘れるはずないですもんね？	
+6	32	CELL2361	<5>Look! We have guests coming already! I wonder where they heard about us?	<5>あら？早速お客様が遊びに来たようですね。\nどこで話を聞いたのかしら…？	
+6	33	CELL2371	<1>No time to spare, let's get the gates open! Tap the Entrance Gate, will you?	<1>ゲートを開門して、\nお客様をパークに招待しましょ。\nゲートをタッチして頂きますか？	
+6	34	CELL2381	<1>The gate is open and guests are in the park. It looks like they're all headed for the ride!	<1>ゲートが開門し、お客様が入園しましたね。\n皆、アトラクションに向かっているようです。	
+6	35	CELL2391	<3>They all seem to be happy, but... I can see one problem.	<3>十分楽しんで頂けたようですね。\nですが…\nこのままでは一つ問題が発生します。	
+6	36	CELL2401	<1>The way it's currently set up, Bouncy Castle can only accommodate the number of people who can fit on the ride at one time.	<1>今のままでは、\nバウンシーキャッスルの定員人数分しか、\nお客様は利用出来ません。	
+6	37	CELL2411	<4>Guests who can't get on the ride will be irritated, and wander away.	<4>アトラクションに入れなかったお客様。\nこのままでは気を悪くして、\n他のどこかへ移ってしまうでしょうね。	
+6	38	CELL2421	<1>So let's do something for the guests so they can wait for their turn on the Bouncy Castle. 	<1>お客様には、気分良く楽しんで頂くのが一番！\nその為の方法をこれからレクチャーします。	
+6	39	CELL2431	<1>Let set up a Queue for them, so they know where to line up.	<1>バウンシーキャッスルで遊びたいお客様の為に\n”整列歩道”を敷設しましょう。	
+6	40	CELL2441	<1>Queues are special paths where guests stand in line to wait for their turn on a ride.	<1>整列歩道とは、アトラクションの順番を待つ\nお客様に並んでもらう為の専用区画です。	
+6	41	CELL2451	<1>Before you can create a Queue for the Bouncy Castle, you have to make room for it.	<1>まず下準備として、\nその整列歩道を敷設する場所を確保しましょう。	
+6	42	CELL2461	<1>We'll have to remove a part of the path so we can place the Queue. Would you please tap the "Eraser" icon?	<1>まず、歩道を一部撤去しちゃいましょ！\n”消しゴムアイコン”をタッチして頂けますか？	
+6	43	CELL2471	<1>That turns the eraser ON. All you have to do now is trace the portion of the path that's flashing.	<1>消しゴムアイコンがＯＮの状態で、\n点滅している歩道を\nタッチペンでなぞってください。	
+6	44	CELL2481	<1>Look at that! That part of the path is gone. You can use the eraser to remove all kinds of things from the park.	<1>歩道が撤去されましたね。\nこのように消しゴムアイコンは、\n様々な施設の撤去に使用します。	
+6	45	CELL2491	<1>So let's continue with Queue placement. Would you please tap the small triangle above the path placement icon?	<1>では整列歩道敷設の続きです。\n歩道設置アイコンの上にある、\n△部分をタッチして頂けますか？	
+6	46	CELL2501	<1>The Paths icon tree pops up. You can select various paths, queues, tracks and courses from this menu.	<1>表示されたのが歩道アイコンツリーです。\n様々な種類の通路、レールを敷設出来ます。	
+6	47	CELL2511	<1>The flashing icon is the Queue icon. Would you please tap it?	<1>今、点滅しているアイコンが\n整列歩道アイコンです。\nこのアイコンをタッチして頂けますか？	
+6	48	CELL2521	<1>The "Queue" icon has replaced the "Path" icon, right? So now you're ready to place the Queue!	<1>歩道設置アイコンが\n整列歩道アイコンに切り替わりました。\nこれで整列歩道を敷設できます。	
+6	49	CELL2531	<1>Placing the Queue is a simple task. All you need to do is trace the flashing line.	<1>では整列歩道を敷設しましょう。\n点滅するラインに沿って、\nタッチペンでなぞってください。	
+6	50	CELL2541	<2>You did it! You placed a Queue! Way to go!	<2>はい、よくできました！パチパチー！\n整列歩道が敷設されましたぁー。	
+6	51	CELL2551	<1>Look! The guests are already lining up to take their turn on the ride..	<1>ほら、見てください！\nお客様が早速、整列歩道に並んでいますよね。	
+6	52	CELL2561	<3>You can't just build Queues any way you feel like, though. If they're not done right, they won't work.	<3>…ただ、フィーリングだけで\n整列歩道を敷設しても\nうまく機能しないんです。	
+6	53	CELL2571	<3>If a Queue is too long, the guests who are waiting will get bored. If a Queue is too short,  guests can't line up.	<3>整列歩道は長すぎてもお客様は退屈しますし、\n逆に短すぎても並んでくれなくなります。	
+6	54	CELL2581	<3>To build Queues that are the appropriate length, you'll need to understand how your guests feel.<P>It'll take some time before you are good at it, but it's worth the effort.	<3>お客様の心理状態を把握し、適切な長さ、\n構造について考える必要が出てきますね。	
+6	55	CELL2591	<2>Keep in mind the type of ride and its popularity when placing Queues.	<2>アトラクションの種類、お客様の入りを見て、\nより良い整列歩道を敷けるよう、\n心がけましょう。	
+6	56	CELL2601	<1>Uh-oh! Looks like some of your guests are getting tired and hungry. Why don't we set up some food and drink stands?	<1>あら？遊び疲れて、\nお腹を空かせたお客様がいるようです。\n飲食店を建ててみましょうか。	
+6	57	CELL2611	<2>What shall we start with? Ice cream shops are popular, right?	<2>なにがいいかなぁ…ねぇ、\nソフトクリーム屋とかカワイイですよね？	
+6	58	CELL2621	<1>See the flashing icon? That's the "Place Shop" icon. Would you tap it, please?	<1>点滅しているのが\n”ショップ設置アイコン”です。\nアイコンをタッチして頂けますか？	
+6	59	CELL2631	<1>The screens have switched places again. Please look at the bottom screen. What you see here is the "Purchase Shop" screen.	<1>画面が切り替わりましたね。\n下画面を御覧下さい。\nこれが”ショップ購入画面”です。	
+6	60	CELL2641	<1>You buy shops in the same way you buy rides. So, let's follow the same process by selecting a Whippy Ice Cream shop.	<1>この流れはアトラクション購入時と\n変わりません。同じ流れで\nウォーリーアイスを選択しましょ。	
+6	61	CELL2651	<1>Next, use the stylus to either check the Whippy Ice Cream shop, or circle it.	<1>ウォーリーアイスを”チェック”\n又は○で囲んでみてください。	
+6	62	CELL2661	<1>The screens switched back again, right? Let's find a spot for the Whippy Ice Cream shop.	<1>画面が切り替わりましたね。\n次にウォーリーアイスを配置しましょう。	
+6	63	CELL2671	<1>See the flashing location? Use the stylus to move the Whippy Ice Cream shop there.	<1>タッチペンでウォーリーアイスを\n点滅位置に移動させてください。	
+6	64	CELL2681	<1>Once it's in the right place, the OK button is displayed. Please tap the OK button.	<1>位置が決まると、\nＯＫアイコンが表示されるはずです。\nＯＫアイコンをタッチして頂けますか？	
+6	65	CELL2691	<1>All right, the Whippy Ice Cream shop is safely in its spot. There's one thing I want you to remember about shop placement.	<1>ＯＫ！ウォーリーアイスが配置されました。\nここでショップに関しても注意点があります。	
+6	66	CELL2701	<2>You already know what I'm going to say, don't you? Shops, just like rides, have to be next to paths.	<2>…そう！もう、わかりますよね？\nアトラクション同様、ショップも\n歩道に隣接した場所に配置してくださいね。	
+6	67	CELL2711	<4>Hey! That guest who just came out of the ice cream shop dropped some trash on the ground! Grrr! I can't stand litterbugs!	<4>あら？ウォーリーアイスから出てきたお客様、\nゴミを歩道に捨てちゃいましたね、…もうっ！	
+6	68	CELL2721	<3>The park will get a bad reputation if there's garbage everywhere. A bad reputation could affect ticket sales.	<3>パークがゴミだらけになると、お客様から\n悪評が立ち、入場者数に影響が出てしまいます。	
+6	69	CELL2731	<1>I guess it's time to hire a cleaning staff. What the park needs is a Handyman or two.	<1>その対策として、\n園内を清掃してくれるスタッフ、\nスイーパーを雇用しましょう。	
+6	70	CELL2741	<1>The flashing icon is the "Staff" icon. Would you please tap it?	<1>点滅しているのが”スタッフアイコン”です。\nアイコンをタッチして頂けますか？	
+6	71	CELL2751	<1>Just like before, the upper and lower screens have switched positions. The lower screen now displays the "Hire Staff" screen.	<1>画面が切り替わりましたね。\n下画面を御覧下さい。\nこれが”スタッフ雇用画面”です。	
+6	72	CELL2761	<1>Tap on the "Handyman" to see a description.	<1>次に”スイーパー”をタッチして頂けますか？	
+6	73	CELL2771	<1>Like it says in the explanation, a Handyman is specially trained in park cleaning techniques.	<1>説明文にある通り、\n彼はパークを清潔に保つ為に必要な、\n清掃専門のスタッフです。	
+6	74	CELL2781	<1>Would you please check or circle the Handyman?	<1>スイーパーを”チェック”\n又は○で囲んでください。	
+6	75	CELL2791	<1>The screens have returned to their original positions. Let's give the Handyman a place to stand.	<1>再び画面が切り替わりましたね。\n次にスイーパーの配属場所を指定しましょう。	
+6	76	CELL2801	<1>Would you please tap the flashing location? Doing so places the Handyman at that position. Then tap the OK button.	<1>点滅位置をタッチして頂けますか？\nＯＫアイコンが表示されます。配置しましょう。	
+6	77	CELL2811	<2>The Handyman's already gone to work! Now that's a professional. As the park grows, hire more cleaners to keep up with it.	<2>早速作業を始めてます、さすがプロ！\n今後は状況に応じて、\n適切な人数を雇用しましょう。	
+6	78	CELL2821	<5>Oh, no! Emergency! The Bouncy Castle's smoking!	<5>あぁん大変！\n設置したバウンシーキャッスルが\n煙を上げてる！	
+6	79	CELL2831	<3>Better do something quick before it blows! We cannot afford such a disaster!	<3>早く対処しなければ、爆発事故が発生し\n大惨事に繋がってしまいます！	
+6	80	CELL2841	<4>An explosion would damage the area to an extreme. You would never be able to build a ride in that spot again.	<4>一度事故を起こしてしまうと、周囲の信頼を失い\n同じ場所に新たな施設を\n建てられなくなってしまいます。	
+6	81	CELL2851	<4>We'd better put our minds to work setting up daily maintenance.	<4>そのようなことが起きない様、常日頃\nパークのメンテナンスを心掛けましょう。	
+6	82	CELL2861	<1>I think it's time for more hiring. Let's get some Mechanics in here to keep the rides running smoothly.	<1>じゃあ今度は…\nアトラクションを修理するスタッフ、\nメカニックを雇ってみましょう。	
+6	83	CELL2871	<1>Would you please tap the staff icon? Remember, it's just like when you hired the Handyman.	<1>スイーパーの時と同様、点滅している\n”スタッフアイコン”をタッチして頂けますか？	
+6	84	CELL2881	<1>The "Hire Staff" screen is now open. Tapping on the Mechanic gives you a description.	<1>”スタッフ雇用画面”に移動しました。\n次に”メカニック”を選択します。	
+6	85	CELL2891	<1>Now, either check or circle the Mechanic please. 	<1>メカニックを”チェック”\n又は○で囲んでください。	
+6	86	CELL2901	<1>The screens have switched places again, haven't they? Please place the Mechanic you selected.	<1>再び画面が切り替わりましたね。\n次にメカニックの配属場所を指定しましょう。	
+6	87	CELL2911	<1>Would you tap the flashing spot? Nice! Tap OK to confirm the placement of the Mechanic.	<1>点滅位置をタッチして頂けますか？\nＯＫアイコンが表示されます。配置しましょう。	
+6	88	CELL2921	<1>The Mechanic will notice the smoke and automatically head over to the malfunctioning ride.	<1>配属されましたね。優秀な我がメカニック達。\n普段、彼らは自発的に\n修理してくれるのですが…	
+6	89	CELL2931	<1>As the park grows and the number of rides increases, you may have to point out which ride you want Mechanics to work on.	<1>今後、アトラクション増加につれて\nオーナーが直接\n修理先を指示するケースも予想されます。	
+6	90	CELL2941	<1>Let me tell you how to go about doing that. It's always good to be prepared, right?	<1>その時に対応できる様、\n修理先の指定方法について、\nレクチャーします。	
+6	91	CELL2951	<1>First, make sure none of the icons along the bottom of the screen are highlighted. If none of them are on, the cursor is "free".	<1>まず、どのアイコンも\nＯＮになってない事を確認してください。\nこれを”カーソルフリー”と呼びます。	
+6	92	CELL2961	<1>While the cursor is free, would you please tap the Bouncy Castle?	<1>カーソルフリー状態で、\nバウンシーキャッスルをタッチして頂けますか？	
+6	93	CELL2971	<1>This displays the status screen on the upper screen. This screen now shows the current status of Bouncy Castle.	<1>上画面に\n”ステータス画面”が表示されています。\n現在のバウンシーキャッスルの状態です。	
+6	94	CELL2981	<1>While the cursor is free you can tap any staff member, guest, shop, or ride you have on screen.	<1>”カーソルフリー”状態で、スタッフや\nショップ、アトラクションをタッチしてみると…	
+6	95	CELL2991	<1>Any time you need this sort of information, just remember you can bring up this screen.	<1>いつでもステータス情報を把握できます、\n覚えておいてくださいね。	
+6	96	CELL3001	<1>There's a flashing gauge on the Bouncy Castle status screen, isn't there?	<1>バウンシーキャッスルのステータス画面にて、\n点滅しているゲージがありますね。	
+6	97	CELL3011	<1>This gauge is called the "Reliability" bar. It tells you how a ride is holding up.	<1>これはこのアトラクションの耐久度を表す\n”耐久ゲージ”です。	
+6	98	CELL3021	<3>When the gauge is bright red, the ride is in a very dangerous state.	<3>ゲージが真っ赤なこの状態は、とても危険な\n状態にあることを示しています。	
+6	99	CELL3031	<3>You can call a Mechanic directly to the ride by tapping the gauge.	<3>このゲージをタッチすると、メカニックを直接\nアトラクションに呼び寄せる事ができます。	
+6	100	CELL3041	<1>To do that, take a look at the lower right corner of the park screen. <P>There's a new icon, isn't there? This icon is the "Edit" icon.	<1>パーク画面、右下を御覧下さい。\n新たに出現したアイコンは\n”エディットアイコン”です。	
+6	101	CELL3051	<1>Would you tap the "Edit" icon, please?	<1>”エディットアイコン”を\nタッチして頂けますか？	
+6	102	CELL3061	<1>The upper and lower screens switched places again, right? Now you're able to edit the status screen.	<1>画面が切り替わりましたね。\nこれでステータス画面を\nタッチする事が可能となりました。	
+6	103	CELL3071	<3>Please tap the Reliability bar quickly, and prevent a disaster!	<3>ではオーナー。\nゲージをタッチして\n事故を未然に防ぎましょう！	
+6	104	CELL3081	<2>There is now a Mechanic hard at work repairing Bouncy Castle. Everything's OK.	<2>メカニックが、バウンシーキャッスルの修理に\n取りかかりました。もう大丈夫！	
+6	105	CELL3091	<1>Last but not least, there's a useful trick I would like to teach you.	<1>では最後に。\n今後、お役に立つテクニックを\n私からオーナーにお教えします。	
+6	106	CELL3101	<1>First, please make sure the cursor is free.	<1>まず”カーソルフリー”状態である事を\n確認してください。	
+6	107	CELL3111	<1>Go ahead and give the Mechanic a number of quick taps.	<1>この状態で、タッチペンでメカニックを\n素早く何度もタッチしてください。	
+6	108	CELL3121	<1>Can you tell that the Mechanic is now working a bit faster?	<1>…メカニックの動作が\n通常よりも速くなった事、\nお気付きですか？	
+6	109	CELL3131	<1>When it comes to making repairs, even the best Mechanics need a certain amount of time.	<1>修理には、どんなに優秀なメカニックでも、\nある程度の時間を必要とします。	
+6	110	CELL3141	<2>However, if you take a direct hand in encouraging your staff members, you'll see that they'll work harder and faster.	<2>ですが、オーナーが直接激励する事によって\nスタッフの作業効率は格段にアップします。	
+6	111	CELL3151	<1>This goes for all your staff, not just Mechanics. I think you can count on them to do their best to make you happy.	<1>メカニックに関わらず、すべてのスタッフは\nオーナーの期待に応えるべく頑張るでしょう。	
+6	112	CELL3161	<1>So remember, if you see a worker who's really working hard, offer some personal encouragement. All right?	<1>懸命に働くスタッフを見かけましたら、\nぜひオーナー自ら励ましてあげてくださいね。	
+6	113	CELL3171	<2>And that brings our tutorial to an end. Thanks for keeping up with me.	<2>では、これにて\nチュートリアルを終了させていただきます。\nお疲れ様でしたー。	
+6	114	CELL3181	<1>So, how do you think I did? To be honest, you're the first person I've ever given the tutorial to!	<1>どうでした、私のレッスン？\n実はこういう事するの、\nオーナーが初めてなんです。	
+6	115	CELL3191	<1>I was pretty nervous. I really hope I was able to help you. I really do!	<1>こう見えて、結構緊張してたんですよ。\nあなたの役に立てたら、うれしいかなー。	
+6	116	CELL3201	<2>The main thing is to stay focused! We can't get lazy. All right! Let's work together to make the best theme park ever!	<2>なんか慣れてくると、つい気を許しちゃうね。\nよし、ここからは切り替え！\n一緒に頑張りましょ！	
+6	117	TT_SKIP_CONFIRM_MESSAGE	<1>You want to skip this tutorial? Good luck.	<1>スタートボタンで\nチュートリアルをスキップするけど…\n構わなくって？	

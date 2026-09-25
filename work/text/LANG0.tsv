@@ -1,0 +1,998 @@
+#묶음	번호	식별자	EN	JP	KO
+0	0	T_BUY_TRACK	BUY TRACK	道を買う	
+0	1	T_RIDE	ride	アトラクション	
+0	2	T_PATH	path	歩道	
+0	3	T_SHOP	shop	ショップ	
+0	4	T_STAFF	staff	スタッフ	
+0	5	T_MAKE	make	作る	
+0	6	T_RAIL	queue	整列歩道	
+0	7	T_BANK_TITLE	MY LITTLE BANK	私の小さな銀行	
+0	8	T_BANK_MONEY	ACCOUNT BALANCE	預金残高	
+0	9	T_BANK_ASSET	PARK VALUE	パークの価値	
+0	10	T_BANK_INTEREST	INTEREST	持ち株	
+0	11	T_BANK_LOAN	CURRENT LOAN	借入れ	
+0	12	T_BANK_PAYMENTS	REPAYMENTS	再支払額	
+0	13	T_INPUT_TITLE	WELCOME	ようこそ	
+0	14	T_INPUT_PARK   	PARK NAME :	テーマパークの名前	
+0	15	T_INPUT_NAME   	YOUR NAME :	あなたの名前	
+0	16	T_INPUT_THEME 	PARK THEME :	パークのテーマ	
+0	17	T_COST	COST 	費用	
+0	18	T_RIDE_MERRY	MERRY-GO-ROUND	コーヒーカップ  	
+0	19	T_RIDE_WHEEL  	BIG WHEEL	ビッグホイール 	
+0	20	T_RIDE_CASTLE  	BOUNCY CASTLE	バウンシーキャッスル 	
+0	21	T_RIDE_TUBING  	RUBBER TUBING	ウォータースライダー 	
+0	22	T_RIDE_DIPPER  	BIG DIPPER	ウッドコースター 	
+0	23	T_RIDE_ROLLER	ROLLER COASTER	ジェットコースター 	
+0	24	T_RIDE_SNAKE_SLIDE 	SNAKES AND LADDERS	スネークスライド 	
+0	25	T_RIDE_D_BOMBER  	DIVE BOMBER 	ダイブボンバー 	
+0	26	T_RIDE_P_BOMBER  	PLANET BOMBER 	プラネットボンバー 	
+0	27	T_RIDE_LOOKOUT_TOWER	OBSERVATION TOWER	展望台 	
+0	28	T_TIME_REMAINING	TIME REMAINING	残り時間	
+0	29	T_RIDE_FLIGHT  	FLIGHT SIM	バーチャルフライト 	
+0	30	T_RIDE_TREE  	TREE HOUSE	ツリーハウス 	
+0	31	T_SHOP_SALTY	SALTY DOG	ソルティードッグ 	
+0	32	T_SHOP_POKEY	POKEY COLA	ドンキーコーラ 	
+0	33	T_SHOP_WIPPY	WHIPPY ICE CREAM	ウォーリーアイス 	
+0	34	T_SHOP_BIG_FRIES	BIG TIME FRIES	ビッグフライポテト 	
+0	35	T_SHOP_BIG_BUGER	BIG TIME BURGER	ビッグバーガー 	
+0	36	T_MAKEUP_TROPICAL	TROPICAL BUSH	熱帯樹 	
+0	37	T_MAKEUP_PALM	PALM TREE	ヤシの木 	
+0	38	T_MAKEUP_PINE	LAMP POST	街灯 	
+0	39	T_MAKEUP_APPLE	APPLE TREE	リンゴの木 	
+0	40	T_MAKEUP_ORANGE	ORANGE TREE	オレンジの木 	
+0	41	T_MAKEUP_ROSE	ROSE BUSH	バラの木 	
+0	42	T_MAKEUP_LAKE	LAKE	池 	
+0	43	T_MAKEUP_TREE_STUMP	TREE STUMP FENCE	木の柵 	
+0	44	T_MAKEUP_PRIVIT	PRIVET HEDGE	生け垣 	
+0	45	T_MAKEUP_CASTLE	CASTLE WALL	城壁 	
+0	46	T_MAKEUP_WHITE	WHITE FENCE	白い柵 	
+0	47	T_PATH_CONCRETE	CONCRETE PATH	歩道 	
+0	48	T_PATH_YELLOW	YELLOW PATH	イエロー歩道 	
+0	49	T_PATH_ONE_WAY	ONE WAY SIGNS	一方通行 	
+0	50	T_PATH_SIGN	SIGN POST	案内標識 	
+0	51	T_PATH_CHAIN	CHAIN LINK RAIL	チェーンレール 	
+0	52	T_STAFF_SHARK	SHARK MAN	シャークマン 	
+0	53	T_STAFF_TEDDY	TEDDY MAN	テディくん 	
+0	54	T_STAFF_SQUID 	SQUID MAN	火星人 	
+0	55	T_STAFF_HIPPO	RHINO MAN	きょうりゅうくん 	
+0	56	T_STAFF_MECANIC	MECHANIC	メカニック 	
+0	57	T_STAFF_HANDYMAN	HANDYMAN	スイーパー 	
+0	58	T_SHOP_DRINK	DRINK	ドリンク 	
+0	59	T_SHOP_SWEET	SWEET	お菓子 	
+0	60	T_SHOP_SAVOURY	SAVORY	ごちそう 	
+0	61	T_SHOP_TOY	TOY	おもちゃ 	
+0	62	T_SHOP_GOODS_NOVELTY	NOVELTY	ノベルティグッズ 	
+0	63	T_SHOP_GOODS_GIFT  	GIFT	ギフト 	
+0	64	T_SHOP_FAST_FOOD  	FAST FOOD	ファーストフード 	
+0	65	T_COASTER_TUBING	RIVER TUBING	ウォータースライダー 	
+0	66	T_COASTER_TUBULAR	ROLLER COASTER	ジェットコースター	
+0	67	T_COASTER_WOODEN	BIG DIPPER	ウッドコースター	
+0	68	T_PARK_INFO_HAPPY	HAPPY	たのしい	
+0	69	T_PARK_INFO_SAD	SAD	つまらない	
+0	70	T_PARK_INFO_LEAVING	LEAVING	帰りたい	
+0	71	T_PARK_INFO_LOST	LOST	迷った	
+0	72	T_PARK_INFO_TOTAL	TOTAL	合計	
+0	73	T_PARK_NAME	MY PARK	マイパーク	
+0	74	T_PERSON_NAMES	BLONDE MAN   	金髪の男性  	
+0	75	CELL761	WOMAN IN GREEN   	緑の服の女性  	
+0	76	CELL771	YOUNG BOY   	男の子  	
+0	77	CELL781	GIRL IN RED DRESS   	赤い服の女の子  	
+0	78	CELL791	TRENDY MAN   	今風の男性  	
+0	79	CELL801	FAT WOMAN   	オバサン  	
+0	80	CELL811	BOY IN JEANS   	ジーンズの少年  	
+0	81	CELL821	GIRL WITH LONG HAIR   	長い髪の少女  	
+0	82	T_PIRATE_BOAT	PIRATE BOAT 	パイレーツシップ 	
+0	83	T_FLYER	PLANE FLYER 	ジョイプレーン 	
+0	84	T_MAZE	MAZE   	迷路 	
+0	85	T_GHOST_HOUSE	GHOST HOUSE	ゴーストハウス 	
+0	86	T_FOUNTAIN	CENTER FOUNTAIN	噴水 	
+0	87	T_PARK_CLOSED	PARK CLOSED    	PARK CLOSED 	
+0	88	T_STAFF_COST			
+0	89	T_INTREST			
+0	90	T_DOUBLE_INTREST			
+0	91	T_PROFIT			
+0	92	T_LOSS			
+0	93	T_BANK_WAGES	STAFF WAGES	人件費総額	
+0	94	T_BANK_TICKET_SALES	TICKET SALES	入場料収益	
+0	95	T_BANK_BALANCE	Available Cash	総資金	
+0	96	T_BANK_LAST_PROFIT	LAST MONTH'S BALANCE	先月の損益	
+0	97	T_BANK_TICKET_COST	Ticket\nPrice	入場料	
+0	98	T_BANK_SHOP	SHOP REVENUE	ショップの収益	
+0	99	T_BANK_PARK_RND	BUILDING COSTS	設置費用	
+0	100	T_SHOP_COST	SHOP BUILDING COST	開店費用	
+0	101	T_SHOP_CUSTOMERS	CUSTOMERS SO FAR	利用客	
+0	102	T_SHOP_STOCK	STOCK PRICE	仕入価格	
+0	103	T_SHOP_SALE	SALE PRICE	販売価格	
+0	104	T_SHOP_SELLS	TYPE OF GOODS	販売品目	
+0	105	T_SHOP_DAYS	DAYS OPEN	営業日数	
+0	106	T_PERSON_HOURS	TIME SPENT IN PARK	滞在時間	
+0	107	T_PERSON_MONEY	MONEY REMAINING	持ってるお金	
+0	108	T_PERSON_BEEN_ON	NUMBER OF RIDES BEEN ON	乗ったアトラクションの数	
+0	109	T_PERSON_RIDE_TYPES	TYPE OF RIDES BEEN ON	乗ったアトラクションの種類	
+0	110	T_PERSON_GO_HOME	GO HOME	家に帰る	
+0	111	T_STAFF_EMPLOYED	MONTHS EMPLOYED	勤続月数	
+0	112	T_STAFF_WASTED			
+0	113	T_STAFF_NOTHING	DOING NOTHING	何もしていない	
+0	114	T_STAFF_ENTERTAINED	PEOPLE ENTERTAINED	お客さんとの出会い	
+0	115	T_STAFF_PLEASED_1			
+0	116	T_STAFF_PLEASED	PEOPLE MADE HAPPY	しあわせ度	
+0	117	T_STAFF_WAGE	MONTHLY WAGE	月給	
+0	118	T_STAFF_LITTER	PICKING UP LITTER	ゴミを拾っている	
+0	119	T_STAFF_TREES	WATERING TREES	植木に水をやっている	
+0	120	T_STAFF_GRASS	CUTTING GRASS	草を刈っている	
+0	121	T_STAFF_RIDETIME	FIXING RIDES	アトラクションを直している	
+0	122	T_STAFF_RIDES	NUMBER OF RIDES FIXED	アトラクション修理数	
+0	123	T_STAFF_ENTERTAININ	ENTERTAINING	たのしんでいる	
+0	124	T_STAFF_ICON_1	EXCELLENT	優秀	
+0	125	T_STAFF_ICON_2	OKAY	まあまあ	
+0	126	T_STAFF_ICON_3	TRY HARDER	いまいち	
+0	127	T_STAFF_TERMINATED	SACK 'IM	クビ	
+0	128	CELL1291	OKAY	まあまあ	
+0	129	CELL1301	NEED FOOD QUICKLY	すぐに食べなきゃ死んじゃうよお	
+0	130	CELL1311	QUITE HUNGRY NOW	とてもお腹がすいた	
+0	131	CELL1321	GETTING A BIT HUNGRY ACTUALLY	ちょっとお腹がすいた	
+0	132	CELL1331	OKAY ON THE FOOD FRONT	食べ物はオーケイ	
+0	133	CELL1341	NOT HUNGRY	お腹はすいてない	
+0	134	CELL1351	DEFINITELY NOT HUNGRY	ぜんぜんお腹はすいてない	
+0	135	T_PERSON_HUNGRY_STA	DON'T WANT TO EAT RIGHT NOW	今は食べたくない	
+0	136	CELL1371	I'LL SCREAM IF I SEE ANOTHER BURGER	ほかのハンバーガーがあったら泣きわめくよ。	
+0	137	CELL1381	SO THIS IS WHAT DYING OF THIRST IS	喉が乾いて死にそうだ	
+0	138	CELL1391	GIVE ME A DRINK OR I'M LEAVING	飲み物をくれなきゃ帰る	
+0	139	CELL1401	COULD DO WITH A DRINK	飲み物があればなあ	
+0	140	CELL1411	A BIT THIRSTY ACTUALLY	ちょっと喉がかわいた	
+0	141	CELL1421	OKAY ON THE DRINK SIDE OF THINGS	飲みながらならいいよ	
+0	142	CELL1431	NOT THIRSTY	喉はかわいてない	
+0	143	CELL1441	DON'T WANT A DRINK	飲み物はほしくない	
+0	144	CELL1451	PROBABLY COULDN'T DRINK ANY MORE	もうこれ以上飲めない	
+0	145	T_PERSON_THIRST_STA	DRUNK TOO MUCH	飲み過ぎた	
+0	146	T_BID	BID	BID	
+0	147	T_SALOON_SHOP	SALOON	ビアハウス 	
+0	148	CELL1491	 		
+0	149	T_SHOP_AMOUNT	AMOUNT OF	商品の量	
+0	150	T_RIDE_RACE	RACE CAR RIDE	ゴーカート 	
+0	151	T_HAUNTED_HOUSE	HAUNTED HOUSE	ホーンテッドハウス 	
+0	152	T_OKAY	OKAY	OK	
+0	153	T_RIDE_RENAME	RENAME RIDE	アトラクションの名前をかえる	
+0	154	T_START	START	スタート	
+0	155	T_MAKEUP_OAK	OAK TREE	カシの木 	
+0	156	T_MAKEUP_WEEPING	WEEPING TREE	ヤナギの木 	
+0	157	T_MAKEUP_BERCH	BIRCH TREE	カバの木 	
+0	158	T_SHUTTLE	SPACE SHUTTLE	スペースシャトル 	
+0	159	T_RIDE_LOOP	LOOP THE LOOP	ループ 	
+0	160	T_RIDE_SCREW	CORK SCREW	コークスクリュー 	
+0	161	T_REQ_RIDE_COST	RIDE COST	アトラクション設置費用	
+0	162	T_REQ_RIDE_CAPACITY	RIDE CAPACITY (MAX)	定員数（最大）	
+0	163	T_REQ_RIDE_EXCITEMENT	EXCITEMENT	興奮度	
+0	164	T_REQ_RIDE_STRENGTH	RELIABILITY	耐久性	
+0	165	T_REQ_RIDE_PEOPLE	PEOPLE BEEN ON RIDE	利用者総数	
+0	166	T_LIST_STAFF_TITLE	STAFF LIST	スタッフ一覧	
+0	167	T_FIND	FIND	見つける	
+0	168	T_INFO	INFO	情報	
+0	169	T_LIST_DOWN	DOWN	下	
+0	170	T_LIST_RIDE_TITLE	RIDE LIST	アトラクション一覧	
+0	171	T_LIST_SHOP_TITLE	SHOP LIST	ショップ一覧	
+0	172	T_LIST_EMPLOYEE	EMPLOYEE	スタッフ	
+0	173	T_LIST_IDLE	IDLE	怠けている	
+0	174	T_LIST_WORKING	WORKING	能率	
+0	175	T_LIST_WAGE	WAGE	人件費	
+0	176	T_STAFF_ERROR	YOU'RE NOT EMPLOYING ANY STAFF RIGHT NOW	スタッフを一人も雇っていません	
+0	177	T_RIDE_ERROR	YOU HAVEN'T BOUGHT ANY RIDES	アトラクションが何もありません	
+0	178	T_SHOP_ERROR	YOU HAVEN'T OPENED ANY SHOPS	ショップを何も開店していません	
+0	179	T_LIST_RIDE_NAME	RIDE NAME	アトラクション名	
+0	180	T_LIST_USERS	USERS	客数	
+0	181	T_LIST_RANKING	RANK	人気	
+0	182	T_LIST_REPAIR	REPAIR	修理	
+0	183	T_LIST_SHOP_NAME	SHOP NAME	ショップ名	
+0	184	T_LIST_FOOD	FOOD	フード	
+0	185	T_LIST_TYPE	TYPE	タイプ	
+0	186	T_LIST_TAKINGS	TAKINGS	粗利	
+0	187	T_LIST_PROFIT	PROFIT	利益	
+0	188	T_LIST_PRICES	STOCK	在庫数量	
+0	189	T_LIST_CUSTOMERS	SALES	売上数	
+0	190	T_QUICK_RIDES	RIDES	アトラクション	
+0	191	T_QUICK_SHOPS	SHOPS	ショップ	
+0	192	T_QUICK_MAKEUP	SCENERY	施設	
+0	193	T_QUICK_STAFF	STAFF	スタッフ	
+0	194	T_QUICK_PATHS	PATHS	歩道	
+0	195	T_CANCEL	CANCEL	キャンセル	
+0	196	T_RIDE_PARASOL	PARASOL CHAIRS	パラソルチェアー 	
+0	197	T_TUBING_HELP	You can only place a Tubing House next to a complete track.	入り口は完成したコースに沿って\n設置してください。	
+0	198	T_ROLER_HELP	You can only place a Roller Coaster House next to a complete roller track.	ローラーハウスはコースが完成後、\nそれに沿って設置してください。	
+0	199	T_RIDE_CLOWNS	CLOWN ACTS	ピエロショー 	
+0	200	T_RIDE_COWBOYS	COWBOY ACTS	ウエスタンショー 	
+0	201	T_RIDE_DOLFINS	DOLPHIN ACTS	イルカショー 	
+0	202	T_RIDE_KNIGHTS	MEDIEVAL ACTS	コロシアム 	
+0	203	T_RIDE_MONO	MONORAIL	モノレール 	
+0	204	T_CHANGE_SALT	AMOUNT OF SALT	塩の量	
+0	205	T_CHANGE_ICE	AMOUNT OF ICE	氷の量	
+0	206	T_CHANGE_FAT	AMOUNT OF FAT	肉の量	
+0	207	T_CHANGE_WATER	AMOUNT OF WATER	水増し量	
+0	208	T_CHANGE_SUGAR	AMOUNT OF SUGAR	砂糖の量	
+0	209	T_CHANGE_CAFFEINE	AMOUNT OF CAFFEINE	カフェインの量	
+0	210	CELL2111	 	 	
+0	211	T_SHOP_TEDDY 	TOY LAND	トイザマス 	
+0	212	T_SHOP_BALLOON	BALLOON WORLD	バルーンストア 	
+0	213	T_TUBING_NOT_ENOUGH_MONEY	This costs %s, which is more than you can afford right now.	これには %s かかります。\n資金が足りないので設置できませんね。	
+0	214	T_LIST_NUMBER_OF_HANDYMEN	HANDYMEN	スイーパー 	
+0	215	T_LIST_NUMBER_OF_MECHANICS	MECHANICS	メカニック 	
+0	216	T_LIST_NUMBER_OF_ENTERTAINER	ENTERTAINERS	エンターテナー 	
+0	217	T_LIST_SORT	SORT BY	区別する	
+0	218	T_LIST_WORK_TIME	TIME	時間	
+0	219	T_LIST_NUMBER_OF_SHOPS	SHOPS	ショップ 	
+0	220	T_LIST_NUMBER_OF_RIDES	RIDES	アトラクション 	
+0	221	T_LIST	LIST	リスト 	
+0	222	T_BUY_CAPACITY	MAXIMUM CAPACITY	最大定員数	
+0	223	T_BUY_EXCITEMENT	RIDE EXCITEMENT	興奮度	
+0	224	T_BUY_RELIABILITY	RELIABILITY	耐久性	
+0	225	T_BUY_COST	COST	設置費用	
+0	226	T_BUY_BUY	BUY	買う	
+0	227	T_BUY_SOME_TRACK	TRACK	コース	
+0	228	T_BUY_SPECIAL	SPECIAL	スペシャル	
+0	229	T_WINDOW_EMPTY			
+0	230	T_STAFF_CHICKEN	CHICKEN MAN	コッケーくん 	
+0	231	T_STAFF_STRONG_MAN	STRONG MAN	マッチョマン 	
+0	232	T_STAFF_GUARD	GUARD	ガードマン 	
+0	233	CELL2341	 	 	
+0	234	CELL2351	 	 	
+0	235	CELL2361	 	 	
+0	236	T_YEAR_1	RICHEST	資金	
+0	237	T_YEAR_2	SATISFACTION	満足度	
+0	238	T_YEAR_3	EXCITING	興奮度	
+0	239	T_YEAR_4	BIGGEST	規模	
+0	240	T_YEAR_5	AMENITIES	快適度	
+0	241	T_YEAR_6	PLEASANT	娯楽度	
+0	242	T_RES_NEXT	NEXT	つぎ	
+0	243	T_RES_PREV	PREV	まえ	
+0	244	T_CONTINUE	GAME	ゲーム	
+0	245	T_BANK_IN	MONEY IN	収入	
+0	246	T_BANK_BAL	BALANCE	収支	
+0	247	T_BANK_OUT	MONEY OUT	支出	
+0	248	T_WOODEN_SPLASH	WATER SPLASH	ウォータースプラッシュ 	
+0	249	T_REQ_HIRE	COST TO HIRE	雇用費	
+0	250	T_ENTHUSIASM	ENTHUSIASM	熱心度	
+0	251	T_STMT_DAY	DAY	日	
+0	252	T_STMT_DETAIL	DETAILS	詳細	
+0	253	T_STMT_OUT	OUT	OUT	
+0	254	T_STMT_IN	IN	IN	
+0	255	T_RIDE_SPINNEY	SUPER SPINNER	スーパースピナー 	
+0	256	T_MAKEUP_SPOOK	SPOOKY TREE	怪しい木 	
+0	257	T_SHOP_GIFT	GIFT SHOP	キャッスルギフト 	
+0	258	T_SHOP_ARCADE 	ARCADE	ゲームセンター 	
+0	259	T_SHOP_COFFEE 	COFFEE SHOP	コーヒーショップ 	
+0	260	T_SHOP_NOVELTY 	NOVELTY SHOP	バラエティーショップ 	
+0	261	T_SHOP_BULL1234	BULL1234	ブル１２３４ 	
+0	262	T_SIDE_ADDICTIVENESS	ADDICTIVENESS	ハマリ度	
+0	263	T_SIDE_CUSTOMERS	WINS/PUNTERS	勝者/利用者数	
+0	264	T_SIDE_PROBABILITY	PROBABILITY OF WINNING	勝率	
+0	265	T_SIDE_PRIZE	COST OF PRIZE	景品価格（賞金）	
+0	266	T_SIDE_PRICE	PRICE PER GAME	ゲーム料金	
+0	267	T_DELETE_PAID_RIDE			
+0	268	T_DELETE_UNPAID_RIDE			
+0	269	CELL2701			
+0	270	CELL2711			
+0	271	CELL2721			
+0	272	CELL2731			
+0	273	CELL2741			
+0	274	T_SHOP_COCONUT	COCONUT SHY	ココナッツショット 	
+0	275	T_ICE_CREAM	ICE CREAM	アイスクリーム 	
+0	276	T_FRIES	FRIES	フライドポテト 	
+0	277	T_BURGERS	BURGERS	ハンバーガー 	
+0	278	T_COLA	COLA	コーラ 	
+0	279	T_BEER	BEER	ビール 	
+0	280	T_COFFEE	COFFEE	コーヒー 	
+0	281	T_TIME_WORKING	TIME WORKING	労働時間	
+0	282	T_STEAK	STEAK	ステーキ 	
+0	283	T_SHOP_CAFE	STEAK RESTAURANT	ステーキハウス 	
+0	284	T_MAKEUP_TOILET	BOGGY CRAPPER	ありがちなトイレ 	
+0	285	T_CONFIRM_NEW_BUS			
+0	286	T_PLAYERS_NAME	IT'S YOU BUDDY	ﾒｻﾞｾ ﾕｳｴﾝﾁｵｳ 	
+0	287	T_PLAYER_CHEATS	%s HAS JUST CHEATED !!!	ずるをしたな %s ！！	
+0	288	T_OVER_DRAWN			
+0	289	T_PERCENT_HAPPY			
+0	290	T_PERCENT_UNDECIDED			
+0	291	T_PERCENT_UNHAPPY			
+0	292	T_GOOD			
+0	293	T_BAD			
+0	294	T_THOUGHTS	THOUGHTS	考え	
+0	295	T_MEANING_OF_DREAMS	THE MEANING OF THOUGHTS	フキダシの意味	
+0	296	T_OBSERVATORY	OBSERVATORY	プラネタリウム 	
+0	297	T_PLANET_ROCKET	PLANET ROCKET	ロケットプラネット 	
+0	298	T_SHOP_DUCK_SHOOT 	DUCK SHOOT	ガーガーショット 	
+0	299	T_SHOP_RACE_TRACK	RACE TRACK	ダービーメダリオン 	
+0	300	T_SHOP_GUN_SHOOT	GUN SHOOT	ラッキーショット 	
+0	301	T_OPENS			
+0	302	T_PERSON_BOREDOM	MOOD	気分	
+0	303	T_TOILET_USERS	TOILET USERS	トイレ利用者	
+0	304	T_MAKEUP_BAD_TOILET	OUTHOUSE	掘っ立てトイレ 	
+0	305	T_NICKNAME	VERN	バーン 	
+0	306	T_MAKEUP_SUPER_TOILET	SUPER TOILET	至上のトイレ 	
+0	307	T_SHOP_SHARP_SHOOT	TIN CAN ALLEY	ティンカンアレイ 	
+0	308	T_SAVE	Save	セーブ	
+0	309	T_LOAD	Load	ロード	
+0	310	T_SPEED_SETTING	Speed	スピード設定	
+0	311	T_BGM_SETTING	BGM	BGM設定	
+0	312	T_MAP_VIEW	Map	全体地図	
+0	313	T_BACK_TO_TITLE	Back\nTo Title	ﾀｲﾄﾙへ戻る	
+0	314	T_LOADING	Loading from the DS Card...\nDo not remove the DS Card.\nDo not touch the Power Button.	ロード中です…\n電源を切ったり、DSカードを\n抜いたりしないでください。	
+0	315	T_SAVING	Saving to the DS Card...\nDo not remove the DS Card.\nDo not touch the Power Button.	セーブ中です…\n電源を切ったり、DSカードを\n抜いたりしないでください。	
+0	316	T_CONFIRM_FIRE	Are you sure you want to fire this employee?	本当にこのスタッフを解雇しますか？	
+0	317	T_ACCOUNTING_SCREEN	Chart	経済グラフ	
+0	318	T_BANK_SCREEN	Bank	銀行	
+0	319	T_VISITORS_SCREEN	Visitors	入場客	
+0	320	T_STRAGE_SCREEN	Warehouse	在庫管理	
+0	321	T_RESEARCH_SCREEN	Research	研究	
+0	322	T_STOCK_SCREEN	Stocks	株	
+0	323	T_LISTS_SCREEN	Lists	各種一覧	
+0	324	T_CUR_TICKET_PRICE	Current Ticket Price	現在のチケット価格	
+0	325	T_NEW_TICKET_PRICE	New Ticket Price	新しいチケット価格	
+0	326	T_CONFIRM_RETURN_TITLE	Are you sure you want to return to the Main Menu? All unsaved data will be lost.	タイトル画面に戻ります。\n未セーブの場合、現在のプレイデータは\n破棄されます。よろしいですか？	
+0	327	T_REPAIRING_RIDE_NAME	Attraction Being Worked On	修理中の乗り物	
+0	328	T_MONTHLY_PROFIT	Monthly Profit	毎月の利益	
+0	329	T_FRENCH_BAKERY	FRENCH BAKERY	フランスベーカリー	
+0	330	T_MAHARAJA_CURRY	MAHARAJA CURRY	マハラジャカレー	
+0	331	T_LONDON_TAXI	LONDON TAXI TEA	ロンドンタクシーティー	
+0	332	T_STAFF_ROBOT	ROBOT	ブリキロボ	
+0	333	T_STAFF_GODZILLA	DINOSAUR	大怪獣	
+0	334	T_STAFF_GHOST	GHOST	ゆうれいくん	
+0	335	T_STAFF_GIANT	GIANT	ジャンボさん	
+0	336	T_PERSON_CHR_A	PIRATE	海賊	
+0	337	T_PERSON_CHR_B	SPACEMAN	宇宙飛行士	
+0	338	T_PERSON_CHR_C	NINJA	忍者	
+0	339	T_PERSON_CHR_D	BUNNY GIRL	バニーガール	
+0	340	T_PERSON_CHR_E	WAITRESS	ウェイトレス	
+0	341	T_PERSON_CHR_F	COWGIRL	カウガール	
+0	342	T_PERSON_CHR_G	PUNK	パンクス	
+0	343	T_PERSON_CHR_H	ZOMBIE	ゾンビ	
+0	344	T_SIGN_RIGHT	Right Direction	右方向の標識	
+0	345	T_SIGN_LEFT	Left  Direction	左方向の標識	
+0	346	T_CURRENT_POS	Current Position	現在位置	
+0	347	T_SIGN_UP	Up Direction	上方向の標識	
+0	348	T_SIGN_DOWN	Down Direction	下方向の標識	
+0	349	T_PARK_GATE	Park Gate	入場ゲート	
+0	350	T_LOAD_FAILED_CORRUPT	The Theme Park save file is corrupted and will be deleted. 	テーマパークのセーブファイルが破損しているため削除されます。	
+0	351	T_DATA_WRITE_FAILED	The data could not be written.\nTurn the power OFF.\nRemove and reinsert the DS Card.	データを上書きすることができませんでした。\nDS本体の電源を切り、\nDSカードを一度抜いて\n再び差し込んでください。	
+0	352	T_READ_FAILED	Could not read the data.\nTurn the power OFF.\nReinsert the DS Card.	データを読み込むことができませんでした。\nDS本体の電源を切り、\nDSカードを一度抜いて\n再び差し込んでください。	
+0	353	T_LOAD_SUCCESS	Game Data loaded successfully.	ゲームデータのロードに成功しました。	
+0	354	T_SAVE_SUCCESS	Game Data saved sucessfully.	ゲームデータのセーブに成功しました。	
+0	355	T_CANADA_SHOP	CANADIAN SALMON	カナディアンサーモン	
+0	356	T_ITALY_SHOP	PIZZA COLISEUM	ピッツァコロシアム	
+0	357	T_USA_RIDE	EMPIRE STATE FLYER	エンパイアステイトフライ	
+0	358	T_EGYPT_RIDE	FLYING CARPET	マジックカーペット	
+0	359	T_JAPAN_RIDE	BOUNCY CASTLE-J	バウンシーキャッスル -J	
+0	360	T_CHINA_SHOP	DRAGON NOODLE	ドラゴンヌードル	
+0	361	T_GERMAN_SHOP	DANKE FRANKFURT	ダンケフランクフルト	
+0	362	T_ANTARTICA_SHOP	PENGUIN CAFÉ	ペンギンカフェ	
+0	363	T_SPANISH_SHOP	SPANISH PAELLA	スパニッシュパエリア	
+0	364	T_RUSSIA_SHOP	RUSSIAN PIROSHKI	キャッスルピロシキ	
+0	365	T_AFRICA_RIDE	AFRICAN TREE-HOUSE	サバンナツリー	
+0	366	T_AUSTRALIA_RIDE	AUSTRALIAN SAFARI	クロコダイルショック	
+0	367	T_BRAZIL_RIDE	RIO CARNAVALE	パレードカップ	
+0	368	T_STMT_BALANCE	Statement Balance	エンパイアステイトフライ	
+0	369	T_BREAD	BREADS	パン	
+0	370	T_SPICES	SPICES	スパイス	
+0	371	T_FISHES	FISHES	魚	
+0	372	T_SAUSAGES	SAUSAGES	ソーセージ	
+0	373	T_PIZZA	PIZZAS	ピザ	
+0	374	T_PAERIA	PAELLAS	パエリア	
+0	375	T_PIROSHKI	PIROSHKI	ピロシキ	
+0	376	T_TEA	TEA	お茶	
+0	377	T_NEXT_COUNTRY	Next Country	次の国へ	
+0	378	T_GIVEUP	Give Up!	ギブアップ	
+0	379	T_NOODLE	NOODLE	中華麺	
+0	380	T_CONFIRM_SAVE	Do you want to overwrite the current saved game?	現在のセーブデータに上書きしますか？	
+0	381	T_CONFIRM_LOAD	Do you want to load your saved data?	セーブデータをロードしますか？	
+0	382	T_COPYRIGHT	©2007 Electronic Arts Inc.\nAll rights reserved.	©2007 Electronic Arts Inc.\nAll rights reserved.	
+1	0	CELL3851	HUMAN	ﾋｭｰﾏﾝ	
+1	1	CELL3861	BINGO HIGHWAY	ﾋﾞﾝｺﾞﾊｲｳｪｲ	
+1	2	CELL3871	PROF. MONEYBAGS	ﾌﾟﾛﾌｪｯｻｰﾏﾈｰﾊﾞｯｸﾞ	
+1	3	CELL3881	S JOHNSTON	Sｼﾞｮﾝｽﾄﾝ	
+1	4	CELL3891	M THATCHER	Mｻｯﾁｬｰ	
+1	5	CELL3901	V GLADSTONE	Vｸﾞﾗｯﾄﾞｽﾄﾝ	
+1	6	CELL3911	NICK HALL	ﾆｯｸﾎｰﾙ	
+1	7	CELL3921	J KENNEDY	Jｹﾈﾃﾞｨ	
+1	8	CELL3931	SIMON HILL	ｻｲﾓﾝﾎｰﾙ	
+1	9	CELL3941	R NIXON	Rﾆｸｿﾝ	
+1	10	CELL3951	J BARNES	Jﾊﾞｰﾝｽﾞ	
+1	11	CELL3961	DHARSHAN KUMURAN	ﾀﾞﾙｼｬﾝｸﾑﾗﾝ	
+1	12	CELL3971	B FISCHER	Bﾌｨｯｼｬｰ	
+1	13	CELL3981	SAM BULLEN	ｻﾑﾊﾞﾚﾝ	
+1	14	CELL3991	C STONE	Cｽﾄｰﾝ	
+1	15	CELL4001	R REAGAN	Rﾚｰｶﾞﾝ	
+1	16	CELL4011	ALAN INGHAM	ｱﾗﾝｲﾝｶﾞﾑ	
+1	17	CELL4021	R ATTLEE	Rｱﾄﾘｰ	
+1	18	CELL4031	H KOHL	Hｺｰﾙ	
+1	19	CELL4041	MALT WISNEY	ﾓﾙﾄｳｨｽﾞﾆｰ	
+1	20	CELL4051	JANE	ｼﾞｪｰﾝ	
+1	21	CELL4061	D ZARNER	Dｻﾞﾙﾅｰ	
+1	22	CELL4071	A EINSTEIN	Aｱｲﾝｽﾀｲﾝ	
+1	23	CELL4081	B CLINTON	Bｸﾘﾝﾄﾝ	
+1	24	CELL4091	L OLIVIER	Lｵﾘﾋﾞｴ	
+1	25	CELL4101	C CRAWFORD	Cｸﾛﾌｫｰﾄﾞ	
+1	26	CELL4111	JES WORLD	ｼﾞｪｽﾜｰﾙﾄﾞ	
+1	27	CELL4121	PEZ WORLD	ﾍﾟｽﾞﾜｰﾙﾄﾞ	
+1	28	CELL4131	MARS WORLD	ﾏｰｽﾞﾜｰﾙﾄﾞ	
+1	29	CELL4141	SWEET WORLD	ｽｲｰﾄﾜｰﾙﾄﾞ	
+1	30	CELL4151	JONES WORLD	ｼﾞｮｰﾝｽﾞﾜｰﾙﾄﾞ	
+1	31	CELL4161	SICK WORLD	ｼｯｸﾜｰﾙﾄﾞ	
+1	32	CELL4171	BAD WORLD	ﾊﾞｯﾄﾞﾜｰﾙﾄﾞ	
+1	33	CELL4181	SHAKS WORLD	ｼｬｸｽﾜｰﾙﾄﾞ	
+1	34	CELL4191	WAKKY WORLD	ﾜｯｷｰﾜｰﾙﾄﾞ	
+1	35	CELL4201	JACKS WORLD	ｼﾞｬｯｸｽﾜｰﾙﾄﾞ	
+1	36	CELL4211	LANES WORLD	ﾚｰﾝｽﾞﾜｰﾙﾄﾞ	
+1	37	CELL4221	PANES WORLD	ﾍﾟｰﾝｽﾞﾜｰﾙﾄﾞ	
+1	38	CELL4231	JANES WORLD	ｼﾞｪｰﾝｽﾞﾜｰﾙﾄﾞ	
+1	39	CELL4241	SMITH WORLD	ｽﾐｽﾜｰﾙﾄﾞ	
+1	40	CELL4251	SMITH WORLD	ｽﾐｽﾜｰﾙﾄﾞ	
+1	41	CELL4261	SMITH WORLD	ｽﾐｽﾜｰﾙﾄﾞ	
+2	0	YT_TITLE_DETAIL	DETAILS CHARTS %s	詳細ランキング %s 年	
+2	1	YT_OVERALL	OVERALL	総合	
+2	2	YT_DETAIL			
+2	3	YT_RICHEST	RICHEST PARK OWNER	一番リッチなオーナー	
+2	4	YT_BIGGEST	BIGGEST PARK	一番大きいテーマパーク	
+2	5	YT_EXCITING	MOST EXCITING PARK	一番活気のあるテーマパーク	
+2	6	YT_AMENITIES	MOST AMENITIES	一番快適	
+2	7	YT_PLEASANT	MOST PLEASANT PARK	一番愉快なテーマパーク	
+2	8	YT_SATISFACTION	MOST HAPPY CUSTOMERS	一番お客さんが楽しい	
+3	0	TA_RIDE_FLIGHT	A high tech, high spec ride that not only packs 'em in but will excite even the most diehard skeptic. Expensive, but worth every penny.	大空を飛んでいる気分を味わえる高性能マシン。\n人気は絶大ですが、寿命が短いのが難点です。	
+3	1	TA_RIDE_TREE	Although it's not a trip to Mars, this mechanical elephant is as reliable as they come - it simply doesn't break down.	木の家に上ってパーク内を一望できます。\n定員が少ないので、\n順番待ちの列に気を付けましょう。	
+3	2	TA_PIRATE_BOAT	Ahoy! You'll need a fair bit of booty for this treasure, but she's sturdy, not too rough, and holds a large crew.	右に左に大きくゆれる海賊船。\nスリルを求めるお客さんに大人気です。	
+3	3	TA_RIDE_MERRY	An inexpensive ride perfect for the nuclear family. Not too wild, either - why, just last week my granny went for a spin.	ぐるぐる回るコーヒーカップ。\n人気があって故障も少ないので、\n資金が少ない時には大活躍です。	
+3	4	TA_MAZE	A cheap adventure playground for lots of little explorers. Don't worry, it's not too complex. Kids love it!	樹木を使った巨大迷路。待ち時間が少なく、\nほとんど故障しませんが、人気はイマイチです。	
+3	5	TA_GHOST_HOUSE	A cheap but thrilling ride with lots of spooks for lots of people. Wait 'till they get a load of the pyrotechnics!	カートに乗って体感するお化け屋敷。\n価格は高いですが、\n耐久力に優れ人気もそこそこあります。	
+3	6	TA_HAUNTED_HOUSE	A suspenseful thrill ride with ghosts galore. It's popular and reliable, so expect crowds. Rides like this don't come cheap!	スリルとサスペンス満点の幽霊屋敷。\n人気、耐久性共に高く、\n多くの集客を望めますが割高です。	
+3	7	TA_RIDE_TUBING	A wet and wild rubber boat that speeds down a slippery slide. It's popular and reliable, but doesn't have a lot of repeat riders.	ゴムボートに乗って水路をすべります。\n人気、耐久力共に高いですが、\n飽きられやすいのが欠点。	
+3	8	TA_RIDE_RACE	This ride gives you the Indy 500 on a scale of 5 and it's safer. You'll get lots of budding Mansells on this one!	カートに乗って、レーサー気分が味わえます。\nコース設計が悪いと、\n事故が起こりやすくなるので注意。	
+3	9	TA_RIDE_ROLLER	This ride is so exciting I feel like vomiting just -thinking- about it. It will make your park the greatest!	スリルと迫力は保証付き。\nパーク一番の呼び物になるでしょう。\n安全第一、コース設計は慎重に。	
+3	10	TA_RIDE_LOOP	This add-on to your existing roller coaster will send guests head over heels and bring new meaning to the word "thrilling".	ジェットコースターに取り付け、\nコースを一回転させるパーツ。\nスリルはより一層、高まります。	
+3	11	TA_RIDE_SCREW	This add-on puts a twist in traditional roller coasters. It'll make the ride more popular, but will also lower its reliability.	ジェットコースターに\nひねりを加える専用パーツ。\n人気はアップしますが耐久度は下がります。	
+3	12	TA_RIDE_WHEEL	The Wheel is big... on happiness. That flower says it all. Pack 'em in with this one.	大きな輪がゆるやかに回る観覧車。\n高価ですが、耐久性はバツグンです。	
+3	13	TA_FLYER	Sleek and stylish planes that fly in circles. It's an expensive but reliable ride that's very popular with families.	ぐるぐる回るオシャレな飛行機。\n価格は高めですが耐久力は高く、\n家族に人気があります。	
+3	14	TA_RIDE_CASTLE	Always an attraction, especially at this price. And it comes equipped with vomit resistant rubber at no extra cost!	お城の上で跳んだりハネたりするトランポリン。\n子供に人気です。故障しやすいので要注意！	
+3	15	TA_SHUTTLE	A 360-degree thrill ride for would-be astronauts everywhere. It's highly reliable and very popular - a must-have attraction.	360度ぐるっと一回転。気分は宇宙飛行士。\n故障しにくく、人気が高い、\nおすすめの一台です。	
+3	16	TA_RIDE_DIPPER	Big on excitement and at this price, you won't have to dig too deep into your piggy bank.	木製のローラーコースター。\n通常のコースターより興奮度は低め。\n設計次第で事故率がアップします。	
+3	17	TA_WOODEN_SPLASH	Adds an affordable drop of exhilaration to your existing wooden rollercoaster at a price that'll keep you liquid.	ウッドコースターに取り付け、\n人気を高めるパーツ。コースターが\n水しぶきを上げながら走り抜けます。	
+3	18	TA_RIDE_MONO	Moves slowly through the park and lets folks see all the sights. It's highly reliable, but a bit lacking in thrills.	パーク内を\nゆっくり遊覧できるアトラクションです。\n耐久力はとても高いですがスリルに欠けます。	
+3	19	TA_RIDE_SNAKE_SLIDE	This slide slithers in at a very reasonable price and although it can only seat one person at a time, it guarantees pleasure.	大きなヘビの形をしたすべり台。\n故障しやすいですが、\n価格が手頃で子供に人気があります。	
+3	20	TA_RIDE_LOOKOUT_TOWER	The view of the park from atop this enormous tower is second-to-none. However, it's popularity and reliablity are low.	高い場所から\nパーク内の素晴らしい景色を楽しめます。\nただし人気、耐久力共に低めです。	
+3	21	TA_RIDE_PARASOL	Excitement all around. You can sit back safe in the knowledge that lots of people will be happy with this inexpensive little number.	パラソル付きのイスが回転！\n家族、カップルに大人気ですが、\n故障しやすいことに要注意。	
+3	22	TA_RIDE_COWBOYS	Round 'em up for a taste of the Wild West that entertains herds of people.	カウボーイスタントマンが\n迫力満点のショーを披露します。\nスリル満点、耐久力も高いです。	
+3	23	TA_RIDE_CLOWNS	Comes cheap, but rest assured the gags are not. This'll keep a circus full of people entertained!	ピエロ達が楽しいショーを繰り広げます。\n定員数はとても多いのですが、\n飽きられるのも早そうです。	
+3	24	TA_RIDE_DOLFINS	Aquatic fun with the seven seas' cutest performers! Popular with kids and adults alike. This show is bound to pack them in!	かわいいイルカ達の楽しいショー。\n子供から大人まで、\n幅広い層の人気が期待できます。	
+3	25	TA_RIDE_KNIGHTS	Give this the thumbs up and receive an amusing glance back in time to the arena. It may be a bit scary for young kids!	中世を舞台にした演劇アトラクション。\n人気はそこそこあるので、\nお客さんを惹きつけるでしょう。	
+3	26	TA_RIDE_SPINNEY	This won't take your wallet for a ride, but it -will- take lots of people for a fun-packed spin. Give it a whirl!	全体をぐるぐる回転させ、スリルを楽しめます。\n人気、耐久性共に高い、ハイテクマシンです。	
+3	27	TA_OBSERVATORY	Show its guests all the wonders in the sky. It also has a nice laser light show and a huge capacity. Extremely reliable!	夜空の美しさを満喫できます。\n人気はそこそこありますが、\nすぐに飽きられる傾向があります。	
+3	28	TA_PLANET_ROCKET	This ride takes its guests on a thrilling virtual tour of the Seven Wonders of the World. You can't go wrong with this baby.	宇宙を散歩したような不思議気分が味わえます。\n低価格ですが定員数は多く、\n人気もそこそこです。	
+3	29	TA_USA_RIDE	This thrillful attraction features planes flying around a world famous skyscraper. Heights! Planes! Vertigo!	高層ビルの周囲を飛行機で飛ぶ、\nスリルいっぱいのアトラクションです。	
+3	30	TA_JPN_RIDE	Can this really be?! A traditional Japanese Castle becomes a trampoline!	おごそかな日本の城が、実はトランポリンに！？\nこのギャップが、お客さんに大ウケです。	
+3	31	TA_EGY_RIDE	Guests on Magic carpets, flying rapidly around a giant Pyramid. The mood and thrill is just spectacular!	ピラミッドをバックに、\nぐるぐる回転する魔法のカーペット。\nスリルもムードも満点です。	
+3	32	TA_AFR_RIDE	Experience the jungle in a small house surrounded by trees. The surrounding animals give guests a real-life feel!	大自然の中の小さな家で、ジャングル体験。\nたくさんの動物に囲まれると、心が和みます。	
+3	33	TA_AUS_RIDE	Experience the wonders of nature. Ride a cart and pass through the open mouth of a giant crocodile!	巨大なワニの口のそばを、カートに乗って移動！\n自然の驚異を体感できます。	
+3	34	TA_BRA_RIDE	Guests here will enjoy the mood and music of a Brazilian Carnival, having fun like never before!	カーニバルのムードを味わえるアトラクション。\n心の底からにぎやかな気分になれます。	
+3	35	TA_RIDE_ONLY_ONE	Unfortunately, you can only place this attraction once in your park.	このアトラクションは\n各テーマパークに一つしか設置できないので、\n購入できません。	
+4	0	CELL4751	 	 	
+4	1	PT_ITS_YOU_BUDDY	ITS YOU BUDDY	ﾒｻﾞｾ ﾕｳｴﾝﾁｵｳ	
+4	2	PT_JUST_CHEATED	%s HAS JUST CHEATED!	ずるいぞ %s！	
+4	3	PT_STATEMENT_TITLE	 DAY      DETAILS                                 OUT          IN    BALANCE	 日付        明細                                             支出            収入         残高	
+4	4	PT_STOCK_SCREEN	STOCK SCREEN	ストック画面	
+4	5	PT_STOCK_PRICE	PRICE   	商品単価	
+4	6	PT_STOCK_IN_STOCK	IN STOCK	在庫数量	
+4	7	PT_STOCK_STOCK_VALUE	VALUE   	総額	
+4	8	PT_STOCK_ON_ORDER	ON ORDER	発注数	
+4	9	PT_STOCK_EXPECTED	EXPECTED	納品予定日	
+4	10	PT_STOCK_PLACE_ORDER	PLACE ORDER	発注数量	
+4	11	PT_STAFF_NEGOTIATION   	STAFF NEGOTIATION	労使交渉	
+4	12	PT_GOODS_NEGOTIATION   	GOODS NEGOTIATION	仕入れ交渉	
+4	13	PT_WAGE_CUT			
+4	14	PT_GIVE_WAGE_INCREASE	YOU HAVE AGREED TO A CHANGE IN STAFF WAGES	あなたは、\nスタッフの賃金値上げに同意しました。	
+4	15	PT_WAGE_PERCENT			
+4	16	PT_WAGE_FREEZE	YOU AND YOUR STAFF HAVE AGREED TO A FREEZE IN WAGES	あなたとスタッフは、\n賃金の凍結に合意しました。	
+4	17	PT_MECANICS_LESS	YOUR MECHANICS WILL NOW NOT WORK FOR LESS THAN %s	メカニックの賃金： %s	
+4	18	PT_HANDYMEN_LESS	YOUR HANDYMEN WILL NOW NOT WORK FOR LESS THAN %s	スイーパーの賃金： %s	
+4	19	PT_ENTERTAINER_LESS	YOUR ENTERTAINERS WILL NOW NOT WORK FOR LESS THAN %s	エンターテナーの賃金： %s	
+4	20	PT_MOUSE_CONTINUE	CLICK MOUSE TO CONTINUE	マウスを左クリックしてください。	
+4	21	PT_GOODS_LESS			
+4	22	PT_GOODS_MORE			
+4	23	PT_GOODS_SAME			
+4	24	PT_NO_AGREEMENT	YOU HAVE FAILED TO REACH A WAGE AGREEMENT WHICH THE	労使交渉は決裂しました。	
+4	25	PT_STAFF_ACCEPTABLE	STAFF UNION FINDS ACCEPTABLE.	組合との賃金協定を締結できませんでした。	
+4	26	PT_FAIL_AGREE	YOU HAVE FAILED TO REACH AN AGREEMENT WHICH YOUR	仕入れ交渉は決裂しました。	
+4	27	PT_SUPPLIERS_FAIL	SUPPLIERS FIND ACCEPTABLE. YOUR SUPPLIES ARE CUT!	商品の入荷がストップします。	
+4	28	PT_RESEARCH_TITLE	RESEARCH SCREEN	研究開発画面	
+4	29	PT_OK	OK	OK	
+4	30	PT_CANCEL	CANCEL	キャンセル	
+4	31	PT_LOAD	LOAD	ﾛｰﾄﾞ	
+4	32	PT_NO_SUCH_FILE	NO SUCH FILE	そのようなファイルはありません。	
+4	33	PT_CLICK_ON_FILE	CLICK ON FILE	ファイルを左クリック	
+4	34	PT_TO_SELECT	TO SELECT	選ぶ	
+4	35	PT_CLICK_ON_LOAD	CLICK ON LOAD	クリックしてﾛｰﾄﾞ	
+4	36	PT_TO_LOAD_GAME	TO LOAD GAME	ﾛｰﾄﾞゲーム	
+4	37	PT_OWNED	OWNED	所有の	
+4	38	PT_SHARES_NAME	NAME	名前	
+4	39	PT_SHARES	SHARES	株式資本	
+4	40	PT_SHARES_BALANCE	BALANCE	資金	
+4	41	PT_SHARES_OWNS	OWNS	所有する	
+4	42	PT_SHARES_BUY	BUY	買う	
+4	43	PT_SHARES_SELL	SELL	売る	
+4	44	PT_SHARES_FORMAT_A			
+4	45	PT_SHARES_FORMAT_B			
+4	46	PT_SHARES_FORMAT_C			
+4	47	PT_SHARES_FORMAT_D			
+4	48	PT_STOCK_ORDER	ORDER	発注数	
+4	49	PT_WAREHOUSE			
+4	50	PT_UPGRADE_WAREHOUSE			
+4	51	PT_NO_PEEPS_IN_PARK	NUMBER OF PEOPLE IN PARK	テーマパーク内のお客さんの数	
+4	52	PT_NO_PEEPS_ON_BUS	NUMBER OF PEOPLE ON BUS	バスに乗っているお客さんの数	
+4	53	PT_CHANGE_NAME	NEW NAME ?	新しい名前は何ですか？	
+4	54	PT_SEND	SEND ORDER	注文する	
+4	55	PT_AUCTION_GOING_1	GOING ONCE !	1 回！	
+4	56	PT_AUCTION_GOING_2	GOING TWICE !!	2 回！!	
+4	57	PT_AUCTION_GOING_3			
+4	58	PT_NOT_AVAILABLE	THIS FEATURE IS NOT AVAILABLE. TRY PLAYING THE FULL GAME.	現在のゲームレベルで、\nこの画面の操作はできません　	
+4	59	PT_GLOBE_MESSAGE	Select the country where you\nwant to set up your theme park	どの国にテーマパークを造りますか？	
+4	60	PT_GLOBE_OK	OK	OK	
+4	61	PT_GLOBE_CANCEL	CANCEL	キャンセル	
+4	62	PT_GLOBE_SELECT	SELECT	選択	
+4	63	PT_SIZE	SIZE	大きさ	
+4	64	PT_CONFIRM_QUIT	ARE YOU SURE YOU WANT TO QUIT THEME PARK ?	メインメニューに戻ってもよろしいですか？	
+4	65	PT_STOCK_VALUE	VALUE	総額	
+4	66	PT_QUANITY_VALUE_TEXT	SHARES: QUANTITY AVAILABLE AND VALUE	株式：有効株数および株価→	
+4	67	PT_RANK_TEXT	RANK	↓ランク	
+4	68	PT_BANK_TEXT	BALANCE	資金→	
+4	69	PT_OWNS_TEXT	ALL ABOVE OWNS SHARES IN:	↑株主一覧：	
+4	70	PT_OWNED_TEXT	ALL BELOW ARE OWNED BY	↓保有株式一覧： 	
+4	71	PT_OVERALL_TEXT	OVERALL VALUE	保有株式時価総額	
+4	72	PT_BUY_LAND	DO YOU WANT TO BUY OUT YOUR LAND FOR %s?	土地の権利を、\n政府から %s で買いますか？	
+4	73	PT_BROUGHT_LAND	%s BUYS LAND FROM THE GOVERNMENT OF %s!	%s は、\n土地を %s 政府から買います。	
+4	74	PT_SHARE_NONE	YOU HAVE NONE OF THESE SHARES TO SELL	売れる株がありません	
+4	75	PT_SHARE_NO_MONEY	YOU DONT HAVE ENOUGH MONEY TO BUY THIS STOCK	資金不足でこの株は買えません	
+4	76	PT_SHARE_NONE_AVAIL	THERE ARE NO SHARES OF THIS TYPE TO BUY	買える株がありません	
+4	77	PT_SUMMERY_TITLE_TEXT_1	YEAR END DETAILS	年末決算報告	
+4	78	PT_SUMMERY_TITLE_TEXT_2	THIS YEAR	今年	
+4	79	PT_SUMMERY_TITLE_TEXT_3	LAST YEAR	昨年	
+4	80	PT_SUMMERY_PARK_VALUE	PARK VALUE	パークの価値	
+4	81	PT_SUMMERY_SHARE_VALUE	SHARE VALUE	株価	
+4	82	PT_SUMMERY_BALANCE	BALANCE	資金残	
+4	83	PT_SUMMERY_LOAN	LOAN	借入金	
+4	84	PT_SUMMERY_MAX_LOAN	MAXIMUM LOAN	借入限度額	
+4	85	PT_SUMMERY_TAKINGS	TAKINGS	収入	
+4	86	PT_SUMMERY_EXPENCES	EXPENSES	支出	
+4	87	PT_SUMMERY_DIV_IN	DIVIDENDS IN	配当受け取り	
+4	88	PT_SUMMERY_DIV_OUT	DIVIDENDS OUT	配当支払い	
+4	89	PT_SUMMERY_LANDTAX	LAND TAX	不動産税	
+4	90	PT_SUMMERY_BUY_LAND	TAP HERE TO BUY YOUR LAND OUTRIGHT	今すぐ土地を買う	
+4	91	PT_SUMMERY_SELL_PARK	TAP HERE TO SELL OFF YOUR PARK	テーマパークを売却	
+4	92	PT_FREE	FREE	無料	
+4	93	PT_SETUP_PARK	BUY LAND	土地を買う	
+4	94	PT_CONFIRM_BANKRUPT_1	NEXT YEAR YOU WILL GO BANKRUPT UNLESS YOU GET OUT OF THE RED.	赤字から脱出できなければ、\n来年には破産します。	
+4	95	PT_CONFIRM_BANKRUPT_2	NEXT YEAR YOUR SHARE VALUE WILL COLLAPSE UNLESS YOU DO BETTER.	何とかしないと、\n来年あなたの株価が暴落します。	
+4	96	PT_GOODS_STRIKE	GOODS STRIKE: NO STOCK ORDERING	入荷ストップ中。仕入れができません。	
+4	97	PT_SUMMERY_RESERVE_PRICE			
+4	98	PT_SELL_SURE	ARE YOU SURE YOU WANT TO PUT YOUR THEME PARK UP FOR AUCTION ?	あなたのテーマパークをオークションにかけてもよろしいですか？	
+4	99	PT_NICKNAME_Q	WHAT IS YOUR NICKNAME ?	ニックネームは何ですか？	
+4	100	PT_AUCTIONS	AUCTIONS THEME PARK	テーマパークを競売にかけます	
+4	101	PT_AUCTIONS_FOR			
+4	102	PT_CONFIRM_RESTART	ARE YOU SURE YOU WANT TO RESTART THEME PARK ?	はじめからやりなおしますか？	
+4	103	PT_LAND_DIFF	EASY	やさしい	
+4	104	CELL5791	MEDIUM	ふつう	
+4	105	CELL5801	HARD	むずかしい	
+4	106	CELL5811	VERY HARD	とてもむずかしい	
+4	107	CELL5821	FIENDISH	ひどくむずかしい	
+4	108	CELL5831	VERY POOR	とても悪い	
+4	109	CELL5841	BAD	悪い	
+4	110	PT_INTEREST	INTEREST	金利	
+4	111	PT_LOAN_SUB_TOTAL	LOAN SUB TOTAL	借入金小計	
+4	112	PT_PRICE_CMP_LAST	CMP	前週比	
+4	113	PT_OWNED_COUNT	CNT	保有数	
+4	114	PT_SHARE_PRICE	VAL	株価	
+4	115	PT_SHARE_ON_MARKET	SHARES	発行数	
+5	0	B_BUY_RIDE	PURCHASE RIDE	アトラクション設置費用	
+5	1	B_BUY_SHOP	PURCHASE SHOP	ショップ設置費用	
+5	2	B_BUY_FEATURE	PURCHASE FEATURE	施設設置費用	
+5	3	B_REDUNCY	REDUNCY PAYMENT	退職手当 	
+5	4	B_SHOP_TAKINGS	MONTHLY SHOP TAKINGS	月間ショップ売上	
+5	5	B_GATE_TAKINGS	MONTHLY GATE TAKINGS	月間入場料収入	
+5	6	B_HIRE_STAFF	HIRE STAFF	スタッフ雇用費	
+5	7	B_INTEREST	INTEREST PAID	利子の支払い	
+5	8	B_DOUBLE_INTEREST	DOUBLE INTEREST PAID	複利の支払い	
+5	9	B_LOAN_REPAID	LOAN REPAID	借入れ返済	
+5	10	B_LOAN	LOAN TAKEN OUT	借入れ	
+5	11	B_BUY_SHARE	BUY SHARES	株式購入	
+5	12	B_SELL_SHARE	SELL SHARES	株式売却	
+5	13	B_WAGES	WAGES	人件費	
+5	14	B_BUY_THUG	BUY THUG	チンピラを雇う	
+5	15	B_CASH_AWARD	CASH AWARD	評価ボーナス	
+5	16	B_BUY_STOCK	BUY STOCK	仕入れ	
+5	17	B_SELL_STOCK	SELL STOCK	卸し	
+5	18	B_RESEARCH	RESEARCH	研究開発	
+5	19	B_PRIZE_WON	SIDESHOW PRIZE WON	賞金の支払い	
+5	20	B_FACILITIES	FACILITIES UPGRADE	施設のアップグレード	
+5	21	B_DIVIDEND_IN	DIVIDEND PAYMENTS	配当収入	
+5	22	B_DIVIDEND_OUT	DIVIDEND PAYOUTS	配当支出	
+5	23	B_BUY_TRACK	INSTALL TRACK	通路敷設	
+5	24	B_MISC	MISC.	その他	
+5	25	B_LAND_TAXES	LAND TAX PAYMENTS	不動産税支払い	
+5	26	B_OUTSTANDING	*Dummy*	*Dummy*	
+6	0	CELL6201	 	 	
+6	1	RES_UPGRADE	UPGRADE RIDE DESIGNS   	アトラクションの改良　　	
+6	2	RES_NEW_RIDE	NEW RIDE DESIGNS   	アトラクションの開発　　	
+6	3	RES_NEW_SHOP	NEW SHOP DESIGNS   	ショップの開発　　	
+6	4	RES_TRAIN_STAFF	STAFF TRAINING   	スタッフの訓練　　	
+6	5	RES_FEATURES	NEW FEATURES   	パーク施設の開発　　	
+6	6	RES_FACILITIES	UPGRADE FACILITIES   	施設の改修　　	
+6	7	RES_MONEY	MONEY	マネー	
+6	8	RES_FUNDS_LEFT	FUNDS LEFT	残った資金	
+6	9	RES_AD_UPGRADE	STRONGER, BIGGER, CHEAPER AND FASTER RIDE DESIGNS   	より丈夫に、より大きく、より安く、より速く、アトラクションの改良　　	
+6	10	RES_AD_NEW_RIDE	GET NEW BRILLIANT RIDE DESIGNS LIKE THE ROLLER COASTER AND FLIGHT SIM......   	ジェットコースターやバーチャルフライトのような、強力な新アトラクションの開発　　	
+6	11	RES_AD_NEW_SHOP	GET NEW BIGGER, BETTER SHOPS LIKE THE STEAK HOUSE AND ARCADE......   	ステーキハウスやゲームセンターのような、より大きく高級な新ショップの開発　　	
+6	12	RES_AD_TRAIN_STAFF	TRAIN YOUR STAFF TO BE MORE EFFICIENT AND WORK FASTER   	より能率よく、素早く働く、スタッフの教育　　	
+6	13	RES_AD_FEATURES	MORE ATTRACTIVE TREES, BETTER QUALITY TOILETS AND FANTASTIC CENTRAL ATTRACTIONS   	樹木、柵、トイレなど各種施設の新開発とグレードアップ　　	
+6	14	RES_AD_FACILITIES	MASSIVE CAPACITY BUSES AND HUGE WAREHOUSES   	バスの定員を増やす、倉庫サイズを大きく　　	
+6	15	RES_DONE	--DONE--	-- 完了 --	
+6	16	RES_CURR_COST	CURRENT COST	現在の費用	
+6	17	RES_NEW_COST	NEW COST	新しい費用	
+6	18	RES_TOTAL_COST	TOTAL MONEY SPENT	合計投資額	
+7	0	CELL6401	Whips up a delicious spread of ice creams to ease a thirst, yet it won't put a freeze on spending.	冷たくて甘～い、アイスクリーム屋さん。\n幅広い層に人気がありますが、在庫には要注意。	
+7	1	CELL6411	A popular place to enjoy a crispy potato snack! Look out though, this one's drier than a dusty summer day.	カリッと揚げたて、フライドポテト屋さん。\n飲食店の組み合わせで、\n相乗効果が期待できます。	
+7	2	CELL6421	This burger joint is the most popular restaurant in the park. Guests can't get enough of them! Watch the trash, though.	パークで一番人気の飲食店。売れ行きも良く、\n客の評判も良いですが、ゴミの出やすさに注意。	
+7	3	CELL6431	More expensive, but this restaurant offers the best food in the park - as well as the best returns.	リッチ気分を味わえるレストラン。\n設置価格は高めですが、\nお客さんの満足度もとても高いです。	
+7	4	CELL6441	Buy the world a Pokey Cola - hey, it's the popular thirst quencher.	コーラを販売するお店。\n興奮度の高いアトラクションと相性抜群です。	
+7	5	CELL6451	Mosey on down to the Saloon shop for drink that'll even surprise fish - All this and it makes you more hungry!	ビールを売っているお店。大人に大人気です。\n食欲を増進する効果で、\n二次収益が期待できます。	
+7	6	CELL6461	Why don't you stir up your park with coffee shops - They come cheap and chic and do the trick.	コーヒーが飲めるお店。\n商品を仕入れる必要が無く、在庫を気にせず\n商売ができる貴重なお店です。	
+7	7	CELL6471	Let your customers go home with a Teddy from the Teddy Shop - Guaranteed to be cute with an average mark up.	子供に人気のある、おもちゃ屋さんです。\n設置価格は高い割に、商品単価は安いです。	
+7	8	CELL6481	Float down to the Balloon Store for a bulbous bargain - Your head would have to be full of helium to miss this opportunity.	テーマパークに欠かせない必須アイテム、\n風船を売るお店です。\n人気が高く多くの客が購入します。	
+7	9	CELL6491	Browse through our up-market Gift Shop for that more expensive, more thoughtful gift that says to the world: I rode that park!	テーマパークのおみやげ屋さんです。\n人が多い場所に出店すると、\n高い売り上げが期待できます。	
+7	10	CELL6501	It's costly sure, but the Arcade will blow 'em away with excitement. Initial outlay is high, but it's a guaranteed crowd puller.	テーマパーク一番の娯楽施設。\n設置価格は高価ながら、\n莫大な売り上げも期待できるでしょう。	
+7	11	CELL6511	A small shop that sells park mementos, shirts, hats, keychains and other assorted knick-knacks.	パークの記念品や、\nちょっとした小物を売るお店です。	
+7	12	CELL6521	Seems expensive until you consider that it's popularity is rivalled only by the arcade.	ボールを投げてヤシの実を落としていくゲーム。\n子供たちに人気があります。	
+7	13	CELL6531	Gear up for a flitter with the fillies - At least it's more exciting than shooting a duck.	走っている馬にボールを当てるゲーム。\n子供より大人に人気があります。	
+7	14	CELL6541	Quack! Quack! Shoot it out with these sinister ducks! Not exactly a roller coaster ride, but cheap.	水鉄砲でアヒルの人形を撃つゲーム。\n熱中度は低いですが、子供に人気があります。	
+7	15	CELL6551	Aim for a Shooting Range if you want to target your park for excitement and low costs.	水鉄砲で狙い撃ち、\n本格派シューティングゲーム。興奮度は最高！\n幅広い層に人気があります。	
+7	16	CELL6561	A semi-popular game where you compete to toss the most marbles into tin cans. It needs to be set up in a wide space.	ブリキ缶に投げ入れた\nおはじきの数を競うゲーム。人気はそこそこ。\n設置には広い場所が必要です。	
+7	17	CELL6571	An Arch-of-Triumph-themed bakery. It boasts cakes, breads and a wide assortment of delicious baked goods.	凱旋門をモチーフにしたベーカリーショップ。\nパンからケーキ、焼き菓子まで幅広い品揃え。	
+7	18	CELL6581	An ethnic eatery with a kick! Once guests get a taste for this spicy food they'll keep coming back for more!	カレーが楽しめるエスニックレストラン。\nその辛さが、やみつきになる事間違いなし！	
+7	19	CELL6591	A quaint tea house in the shape of a double-decker bus. The aroma of its fine teas invites guests in for a rest.	二階建てバスをかたどった喫茶店。\n香り高い紅茶で、くつろぎのひとときを。	
+7	20	CELL6601	A pizza joint with all the toppings! The pizzas are hot, fresh and made to order. A sure-fire hit!	とろりとろけるチーズの乗った\nアツアツのピザを売るお店。\nパリッとした歯応えが大人気。	
+7	21	CELL6611	A magnificent restaurant inspired by Niagara Falls. Their dishes feature only the freshest Canadian salmon.	ナイアガラの滝をかたどったレストラン。\nカナダ直送、新鮮なサーモン料理が楽しめます。	
+7	22	CELL6621	A gigantic dragon is the symbol of this ramen shop. Over 4,000 years of culinary secrets can be found in each delicious dish!	巨大な龍が目印のラーメン屋。\n4000年の歴史が生み出した、\n秘伝の味をご賞味あれ。	
+7	23	CELL6631	The famous Sagrada Familia! Walk inside to taste its heart warming Paella and listen to its live violin player.	サグラダファミリアをかたどったレストラン。\n山の幸を盛り込んだ\n本格派パエリアを味わえます。	
+7	24	CELL6641	A cute penguin is on the sign. This café looks icy cool from the outside, and features lots of hot drinks inside.	かわいいペンギンが目印のカフェ。\n見た目はひんやり、でも店内は常にホットです。	
+7	25	CELL6651	A restaurant with the famous Russian piroshiki. Walk in at any time for a light bite to eat!	ロシア名物ピロシキを売るお店。\n気軽に食べることができるので、\nパークとの相性は抜群！	
+7	26	CELL6661	A restaurant that allows you to enjoy an amazing selection of juicy, tasteful, sizzling, famous German sausages!	厳選された豚肉が原料の、\n歯応えのあるソーセージを\n味わえるレストランです。	
+8	0	CELL6681	Hire this entertainer to keep people happy and keep people dry in nasty weather.	エンターテナーを雇えば、\n雨の日や長い行列でもお客さんはウキウキ、\n経営は順風満帆！	
+8	1	CELL6691	The mechanic will fix any ride that breaks down - An important job.	アトラクションのメンテナンス、\n修理を担当します。	
+8	2	CELL6701	Will keep the all-important toilets clean, tidy up your park and make sure the grass is kept short.	ゴミ拾い、トイレ掃除、\n芝生の手入れを担当する清掃スタッフです。	
+8	3	CELL6711	Will protect your park from nasty hooligans and spot consumer association spies.	迷子の世話や道案内、\nそしてテーマパークの治安を守る、\n頼りになるスタッフです。	
+8	4	CELL6721	This entertainer runs around in a shark suit. His crazy antics and sunny disposition keeps guests in good moods.	サメの姿をしたエンターテナー。\nとぼけた動きと陽気な性格で、\nお客さんを楽しませます。	
+8	5	CELL6731	This entertainer bounces about in an adorable bear suit. He spreads cheer wherever he goes.	クマの姿をしたエンターテナー。\nぴょんぴょん跳ねて陽気をふりまきます。	
+8	6	CELL6741	This entertainer runs around in a chicken suit, flapping his wings. Kids can't take their eyes off him.	大きな鶏の姿をしたエンターテナー。\n羽をバタバタさせるアクションは\n子供の目を釘付け。	
+8	7	CELL6751	This entertainer charges about in a rhino suit. His gentle eyes and powerful physique make him a popular figure.	恐竜の姿をしたのエンターテナー。\nつぶらな瞳のかわいい力持ち。\n幅広い層に人気があります。	
+8	8	CELL6761	This entertainer's a mountain of muscles. He's got bulging biceps and a heart of gold. As you might expect, the ladies love him.	ムキムキ筋肉男。たくましい腕を持つ\nナイスガイ。愛すべきキモチ悪さから、\n意外にも女性に人気。	
+8	9	CELL6771	This entertainer squirms about in a squid costume. His bizarre appearance makes him an object of much attention.	タコのようなイカのような謎のエンターテナー。\nその不思議な容姿で、\n多くの客の注目を集めます。	
+8	10	CELL6781	This entertainer clanks around in a retro robot suit. The revolving wind-up key in his back is part of his appeal.	レトロデザインなロボット姿のエンターテナー。\n背中についているゼンマイがチャームポイント。	
+8	11	CELL6791	This entertainer prowls the park in a beastly suit. All eyes are locked on him when he breathes gouts of flames. 	怪獣の姿のエンターテナー。\n口から吹く大きな炎に、\nお客さんの目は釘付けです！	
+8	12	CELL6801	This entertainer floats about in a ghost suit. He's a cute ghost, though, and will often have a train of admirers.	幽霊の姿のエンターテナー。\n怖い、でもかわいい。\nついつい追いかけられたくなります。	
+8	13	CELL6811	A colossal entertainer whose mighty physique and prodigious feats endear him to one guest after another.	巨人エンターテナー。\nその体と豪快なアクションに\n一目惚れするお客さんが続出です。	
+9	0	CELL6831	A lush plant that looks great near water attractions. Place a bunch of them together to create your own tropical jungle.	水辺が似合う植物。\nまとめて配置すれば、\nそこはまるで熱帯ジャングルのよう。	
+9	1	CELL6841	A tropical or subtropical plant.	常夏の雰囲気を演出してくれる植物。\nサイズは大きめです。	
+9	2	CELL6851	Light up your park with these stylish Victorian era lamps.	アンティークなデザインの街灯。\nパーク内を華麗にライトアップします。	
+9	3	CELL6861	Widely cultivated in many regions.	真っ赤な果実が美しいリンゴの木。\nサイズが小さく、扱いやすいです。	
+9	4	CELL6871	Cultivated in warm regions.	オレンジの木は、\n暖かい地方でよく見られます。	
+9	5	CELL6881	Prickly but fragrant flower.	高貴な香りが人々を魅了します。\nトイレの近くに置くと、悪臭を和らげます。	
+9	6	CELL6891	An evergreen with acorns as fruit.	一年中緑豊かな葉を付ける木。\nパーク内の爽やかな自然を演出します。	
+9	7	CELL6901	A chinese willow tree with long, hanging branches, perfect for ornamentation.	たれ下がる枝が魅力の中国産の木。\n涼しげな雰囲気を演出します。	
+9	8	CELL6911	An elegant genus with thin, peeling bark, once used for flogging offenders.	小さい葉と細い幹が印象的な木。\n最も安価なので、気軽に配置できます。	
+9	9	CELL6921	Originates in the moonlit groves of Transylvania and flowers baby ghosts once a leap year.	少し不気味な感じがする怪しい木。\nゴーストハウスとの相性が良いでしょう。	
+9	10	CELL6931	Complements the pleasantness of your park.	水辺は心を潤すアクセント。\n複数並べることもできます。	
+9	11	CELL6941	Add that summer camp feel to your park with the Tree Stump fence.	木の切り株で作った柵。\nサマーキャンプらしさを演出します。	
+9	12	CELL6951	Add a little class and privacy to your park with the Privet Hedge.	植物を並べた緑豊かな柵。\nテーマパーク内に高級感を演出します。	
+9	13	CELL6961	Make your park feel like a Fort with the Castle fence.	レンガづくりの塀。\n中世ヨーロッパ風の\n雰囲気を漂わす事ができます。	
+9	14	CELL6971	For the ultimate in cuteness, transform your park into a little cottage with joy. That is the Picket fence.	純白の柵。\n爽やかな雰囲気を演出します。\n価格もお手頃です。	
+9	15	CELL6981	Very important, but think hard before you place it down.	普通のトイレ。\n木製のトイレよりも性能は上ですが、\nまだ少し悪臭が漂います。	
+9	16	CELL6991	It smells, leaks and is ecologically unsound - but it does give much-needed relief.	木製のトイレ。\n周囲に悪臭が漂います。\n配置場所には十分注意してください。	
+9	17	CELL7001	Super clean, super quick. It's a Super Toilet, for the ultimate in consumer cleanliness.	高性能のトイレ。\n清潔で臭わないので、安心して利用できます。	
+9	18	CELL7011	A real crowd-puller, this glittering, dancing fountain is perfect as a central attraction.	パークのシンボルにもなる憩いの施設。\n高価ながらも、\nムードの盛り上げに一役買います。	
+9	19	CELL7021	Use these Sign Posts to help people get around your park.	テーマパーク内の道路に、\n施設への案内標識を設置する事ができます。	
+9	20	CELL7031	Use these One-Way arrows to improve the flow of people on your park's paths.	テーマパーク内の道路に、\n一方通行を案内する標識を\n設置する事ができます。	
+10	0	CELL7051	THEME PARK MENU	THEME PARK MENU	
+10	1	CELL7061	NEW GAME	ゲームを最初から始める	
+10	2	CELL7071	CONTINUE GAME	ゲームを続きから始める	
+10	3	CELL7081	DS WIRELESS COMMUNICATIONS	すれちがい通信	
+10	4	CELL7091	LANGUAGE	言語	
+10	5	CELL7101	English	English	
+10	6	CELL7111	Deustch	Deutsch	
+10	7	CELL7121	Français	Français	
+10	8	CELL7131	Español	Español	
+10	9	CELL7141	Italiano	Italiano	
+10	10	CELL7151	日本語	日本語	
+11	0	CELL7171	JAN	1月	
+11	1	CELL7181	FEB	2月	
+11	2	CELL7191	MAR	3月	
+11	3	CELL7201	APR	4月	
+11	4	CELL7211	MAY	5月	
+11	5	CELL7221	JUN	6月	
+11	6	CELL7231	JUL	7月	
+11	7	CELL7241	AUG	8月	
+11	8	CELL7251	SEP	9月	
+11	9	CELL7261	OCT	10月	
+11	10	CELL7271	NOV	11月	
+11	11	CELL7281	DEC	12月	
+12	0	TT_FOOD	FOOD THOUGHTS	食べ物について	
+12	1	TT_BAD	BAD THOUGHTS	不満に思っていること	
+12	2	TT_LOOKING_FOR	LOOKING FOR	探してるもの	
+12	3	TT_FULL	FULL THOUGHTS	満腹感	
+12	4	TT_FEELINGS	FEELINGS	感想	
+12	5	TT_INFO	INFO THOUGHTS	いまの状態	
+12	6	TT_HUN_AND_THU	I AM HUNGRY AND THIRSTY	何か口にしたい	
+12	7	TT_HUNGRY	I AM HUNGRY	何か食べたい	
+12	8	TT_THURSTY	I AM THIRSTY	何か飲みたい	
+12	9	TT_NOT_HUN_AND_THU	I AM NOT HUNGRY OR THIRSTY	何も口にしたくない	
+12	10	TT_NOT_HUNGRY	I AM NOT HUNGRY	何も食べたくない	
+12	11	TT_NOT_THURSTY	I AM NOT THIRSTY	何も飲みたくない	
+12	12	TT_STILL_EATING	I AM STILL EATING SOMETHING	いま食べてるところ	
+12	13	TT_STILL_DRINKING	I AM STILL DRINKING SOMETHING	いま飲んでるところ	
+12	14	TT_GOT_TOY	I HAVE ALREADY GOT THAT TOY	それはもう買った	
+12	15	TT_GOING_TO_EXIT	I AM MAKING MY WAY TO THE EXIT	もう帰る	
+12	16	TT_NO_MONEY	I DO NOT HAVE MUCH MONEY LEFT	お金がほとんどなくなった	
+12	17	TT_BEEN_ON_RIDES	I HAVE BEEN ON MANY OF YOUR RIDES	アトラクションにはかなり乗った	
+12	18	TT_BEEN_ON_ALL_RIDES	I HAVE BEEN ON ALL OF YOUR RIDES	アトラクションには全部乗った	
+12	19	TT_TIME_TO_GO_HOME	IT IS NEARLY TIME FOR ME TO GO HOME	そろそろ家に帰ろう	
+12	20	TT_DRINK_BAD	THE DRINK IS NOT SATISFYING ENOUGH	飲み物がまずい	
+12	21	TT_FOOD_BAD	THE FOOD IS NOT SATISFYING ENOUGH	食べ物がまずい	
+12	22	TT_PRIZE_BAD	THE PRIZE IS NOT EXPENSIVE ENOUGH	ゲームの景品（賞金）が安っぽい	
+12	23	TT_PROB_BAD	NOT ENOUGH CHANCE OF WINNING	ゲームに勝てるとは思えない	
+12	24	TT_PRICE_TOO_HIGH	THE PRICE IS TOO HIGH	値段が高すぎる	
+12	25	TT_PROFIT_TOO_HIGH	YOU ARE MAKING TOO MUCH PROFIT	ぼったくり同然だ	
+12	26	TT_TOO_MUCH_LITTER	THERE IS TOO MUCH LITTER AROUND	ずいぶん散らかってるな	
+12	27	TT_WHITE_DICE	WHITE DICE	白いさいころ	
+12	28	TT_LOOKING_FOR_EXIT	I AM LOOKING FOR THE EXIT	出口はどこだろう	
+12	29	TT_BLOATED	I CAN'T EAT OR DRINK ANOTHER THING	満腹だ	
+12	30	TT_STUFFED	I CAN'T EAT ANOTHER BITE	もう何も食べれない	
+12	31	TT_QUENCHED	I CAN'T DRINK ANOTHER DROP	もう何も飲めない	
+12	32	TT_HAPPY	I AM HAPPY	おもしろい	
+12	33	TT_OK	I AM FEELING OKAY	まあまあ	
+12	34	TT_UNHAPPY	I AM UNHAPPY	つまらない	
+12	35	TT_TIRED_OF_WALKING	I AM GETTING TIRED OF WALKING	もう歩きたくない	
+12	36	TT_BORED	I AM GETTING BORED	もうあきた	
+12	37	TT_TOILET	I NEED TO GO TO THE TOILET	トイレはどこだろう	
+13	0	T_MY_BALANCE	BAL	資金	
+13	1	T_MONEY_IN	IN	収入	
+13	2	T_MONEY_OUT	OUT	支出	
+13	3	T_PEEPS_ON_BUS	BUS	客数	
+13	4	T_SHARE_VALUE	SHA	株価	
+13	5	T_MONTHLY_GATE_TAKINGS	GATE	入場	
+13	6	T_MONTHLY_SHOP_TAKINGS	SHOP	店	
+13	7	T_MONTHLY_STAFF_WAGES  	WAGE	人	
+13	8	T_OVERALL_RATINGS	RAT	総合	
+13	9	T_INFLATION	INF	インフレ率	
+13	10	T_INTEREST_RATE	INT	公定歩合	
+13	11	T_LONG_MY_BALANCE	BALANCE	資金残高	
+13	12	T_LONG_MONEY_IN	MONEY IN	収入	
+13	13	T_LONG_MONEY_OUT	MONEY OUT	支出	
+13	14	T_LONG_PEEPS_ON_BUS	PEOPLE ON BUS	来場者数	
+13	15	T_LONG_SHARE_VALUE	SHARE VALUE	株価	
+13	16	T_LONG_MONTHLY_GATE_TAKINGS	GATE TAKINGS	入場料収入	
+13	17	T_LONG_MONTHLY_SHOP_TAKINGS	SHOP TAKINGS	ショップ売り上げ収入	
+13	18	T_LONG_MONTHLY_STAFF_WAGES 	STAFF WAGES	人件費	
+13	19	T_LONG_OVERALL_RATINGS	OVERALL RATINGS	総合評価	
+13	20	T_LONG_INFLATION	Inflation	インフレ率	
+13	21	T_LONG_INTEREST_RATE	Interest	金利	
+13	22	T_TWELVE_MONTH	1 YEAR	1 年間	
+13	23	T_TWELVE_YEAR	12 YEARS	12 年間	
+13	24	T_FORTY_EIGHT_YEAR	48 YEARS	48 年間	
+13	25	T_ACCOUNT_BALANCE	Account Balance	預金残高	
+13	26	T_PARK_VALUE	Park Value	パークの価値	
+13	27	TO_QUOTA_BALANCE	Balance Target	クリア資金	
+13	28	TO_QUOTA_PARK	Park Value Target	クリア総資産	
+14	0	CELL7991	EMPTY	なし	
+14	1	CELL8001	FRANCE	フランス	
+14	2	CELL8011	U.S.A.	アメリカ	
+14	3	CELL8021	INDIA	インド	
+14	4	CELL8031	GERMANY	ドイツ	
+14	5	CO_DATA_LOCALPOP         	SHORT POPULATION :	地域人口	
+14	6	CO_DATA_MEDIUMPOP        	MEDIUM POPULATION :	地方人口	
+14	7	CO_DATA_LONGPOP         	LONG POPULATION :	広域人口	
+14	8	CO_DATA_INFLATIONRATE	INFLATION RATE :	インフレ率	
+14	9	CO_DATA_INTRESTRATE      	INTEREST RATE :	金利	
+14	10	CO_DATA_ECONOMY         	ECONOMY :	経済	
+14	11	CO_DATA_TAXFREEPERIOD	TAX FREE PERIOD YEARS :	免税期間（年）	
+14	12	CO_DATA_LANDTAX         	LAND TAX :	不動産税	
+14	13	CO_DATA_WEATHER         	WEATHER :	気候	
+14	14	CO_DATA_TERRAIN         	TERRAIN :	地形	
+14	15	CO_DATA_SPECIAL         	SPECIAL :	スペシャル	
+14	16	CO_DATA_WHO                     	WHO :	ライバル	
+14	17	CO_DATA_COST            	COST :	土地価格	
+14	18	CO_ECONOMY_TEXT	RICH	先進国	
+14	19	CELL8181	WEALTHY	リッチ	
+14	20	CELL8191	MEDIUM	中進国	
+14	21	CELL8201	POOR	途上国	
+14	22	CELL8211	VERY POOR	激貧	
+14	23	CO_WEATHER_TEXT	CLEAR	快晴	
+14	24	CELL8231	SNOW	多雪	
+14	25	CELL8241	RAIN	多雨	
+14	26	CELL8251	SUN	好天	
+14	27	CELL8261	STORM	強風	
+14	28	CO_TERRAIN_TEXT	GRASS	草地	
+14	29	CELL8281	ROCK	岩山	
+14	30	CELL8291	FOREST	森林	
+14	31	CELL8301	RIVER	河川	
+14	32	CELL8311	LAKE	湖水	
+14	33	CO_SPECIAL_TEXT	NOTHING	なにもない	
+14	34	CELL8331	LIKES BURGERS	バーガー好き	
+14	35	CO_DATA_PLAYER_NAME             	PLAYER NAME	プレイヤーの名前	
+14	36	CO_DATA_BALANCE                 	BALANCE	資金	
+14	37	CO_DATA_PERSONAILTY             	PERSONALITY	独自性	
+14	38	CO_DATA_VENDETTA                	VENDETTA	敵対関係	
+14	39	CO_DATA_REPUTATION              	REPUTATION	評判	
+14	40	CO_DATA_NO_RIDES                	NUMBER OF RIDES	アトラクション数	
+14	41	CO_DATA_NO_SHOPS                	NUMBER OF SHOPS	ショップ数	
+14	42	CO_DATA_NO_STAFF                	NUMBER OF STAFF	スタッフ数	
+14	43	CO_DATA_NO_PEOPLE               	NUMBER OF PEOPLE	来場者数	
+14	44	CO_PLAYER_GOING_FOR_NOONE	NONE	なし	
+14	45	CELL8441	ITALY	イタリア	
+14	46	CELL8451	SPAIN	スペイン	
+14	47	CELL8461	CANADA	カナダ	
+14	48	CELL8471	NOT_USED	NOT_USED	
+14	49	CELL8481	NOT_USED	NOT_USED	
+14	50	CELL8491	BRAZIL	ブラジル	
+14	51	CELL8501	NOT_USED	NOT_USED	
+14	52	CELL8511	UNITED KINGDOM	イギリス	
+14	53	CELL8521	NOT_USED	NOT_USED	
+14	54	CELL8531	NOT_USED	NOT_USED	
+14	55	CELL8541	SOUTH AFRICA	南アフリカ	
+14	56	CELL8551	ANTARCTICA	南極	
+14	57	CELL8561	EGYPT	エジプト	
+14	58	CELL8571	NOT_USED	NOT_USED	
+14	59	CELL8581	RUSSIA	ロシア	
+14	60	CELL8591	CHINA	中国	
+14	61	CELL8601	NOT_USED	NOT_USED	
+14	62	CELL8611	JAPAN	日本	
+14	63	CELL8621	AUSTRALIA	オーストラリア	
+14	64	CELL8631	NOT_USED	NOT_USED	
+14	65	CELL8641	DIFFICULTY	難易度	
+14	66	CO_DATA_TO_CLEAR_VALUE	PARK VALUE TO CLEAR	クリア総資産	
+14	67	CO_DATA_TO_CLEAR_BALANCE	BALANCE TO CLEAR	クリア資金	
+15	0	PT_TITLE	YOUR PLAYER DETAILS	プレイヤーについて	
+15	1	PT_NAME	YOUR NAME	名前	
+15	2	PT_NICKNAME	NICKNAME	ニックネーム	
+15	3	PT_AGE	AGE	年齢	
+15	4	PT_SEX	SEX	性別	
+15	5	PT_PARK_THEME	PARK NAME	テーマパークの名前	
+15	6	PT_SIM_LEVEL	SIM LEVEL	ゲームレベル	
+15	7	PT_PARK_VISITORS	GAME MODE	ゲームモード	
+15	8	PT_START_LEVEL	START LEVEL	スタート時の資金	
+15	9	PT_NO_OPPONENTS	OPPONENTS	ライバルの数	
+15	10	PT_OPPONENTS_LEVEL	OPPONENTS LEVEL	ライバルのレベル	
+15	11	PT_PLAYED_BEFORE	TUTORIAL	チュートリアル	
+15	12	PT_MALE_FEMALE_TEXT	MALE	男	
+15	13	CELL8811	FEMALE	女	
+15	14	PT_SIM_LEVEL_TEXT	SANDBOX	つくるのが\n楽しい	
+15	15	CELL8831	SIM	考えるのが\n楽しい	
+15	16	CELL8841	FULL	なんでも\nできる	
+15	17	PT_START_LEVEL_TEXT	EASY	初級	
+15	18	CELL8861	MEDIUM	中級	
+15	19	CELL8871	HARD	上級	
+15	20	CELL8881	NO	いいえ	
+15	21	PT_PLAYED_BEFORE_TEXT	YES	はい	
+15	22	PT_END	FINISHED	終わり	
+16	0	FT_VERY_BAD	VERY BAD	サイテー	
+16	1	FT_BAD	BAD	悪い	
+16	2	FT_POOR	POOR	いまいち	
+16	3	FT_OKAY	OKAY	まあまあ	
+16	4	FT_QUITE_GO	QUITE GOOD	そこそこ	
+16	5	FT_GOOD	GOOD	よい	
+16	6	FT_VERY_GOO	VERY GOOD	とてもよい	
+16	7	FT_EXCELLEN	EXCELLENT	すばらしい	
+16	8	FT_SUPERB	SUPERB	最高	
+16	9	FT_TOP	TOP NOTCH	ぶっちぎり	
+17	0	PPT_JUST_OFF_BUS	JUST PAID	いま来たところ	
+17	1	PPT_JUST_PAID	JUST ARRIVED	着いたばかり	
+17	2	PPT_NOT_LONG	NOT LONG	あまり経ってない	
+17	3	PPT_SHORT_TIME	A SHORT TIME	ほんのちょっと	
+17	4	PPT_LITTLE_WHILE	A LITTLE WHILE	少し経った	
+17	5	PPT_WHILE	A WHILE	１時間ぐらい	
+17	6	PPT_FEW_HOURS	A FEW HOURS	２－３時間いる	
+17	7	PPT_SEVERAL_HOURS	SEVERAL HOURS	６－７時間いる	
+17	8	PPT_LONG_TIME	A LONG TIME	長いこといる	
+17	9	PPT_AGES	AGES	何年もいる	
+17	10	PPT_HOME_SOON	GOING HOME SOON	もうすぐ帰る	
+17	11	PPT_HOME_TIME	HOME TIME	もう帰る時間だ	
+17	12	PPT_HAPPIEST	HAPPY AS CAN BE	この上なく楽しい	
+17	13	PPT_INCREDIBLE	INCREDIBLY HAPPY	途方もなく楽しい	
+17	14	PPT_VERY_HAPPY	VERY HAPPY	とても楽しい	
+17	15	PPT_HAPPY 	HAPPY	楽しい	
+17	16	PPT_QUITE_HAPPY	QUITE HAPPY	実に楽しい	
+17	17	PPT_OKAY	OKAY	まあまあ	
+17	18	PPT_BORED	A BIT BORED	ちょっと退屈	
+17	19	PPT_QUITE_UNHAPPY	QUITE UNHAPPY	割とつまらない	
+17	20	PPT_UNHAPPY	UNHAPPY	つまらない	
+17	21	PPT_VERY_UNHAPPY	VERY UNHAPPY	とってもつまらない	
+17	22	PPT_FAVOURITE_RIDE			
+18	0	CELL9271	CHECK MY PROFILE	プロフィールを見る	
+18	1	CELL9281	CHECK MY FRIENDS	フレンドリスト	
+18	2	CELL9291	START DS WIRELESS COMMUNICATIONS	通信開始	
+18	3	CELL9301			
+19	0	PH_TXT_START	Hello my name is Robert Bell.  Allow me to help you get started as a theme park owner.<P>Let us start by setting up your profile. Tap the items on the screen to change your profile settings.	それではまず初めに、オーナーである、\nあなたのプロフィールを教えてください。	
+19	1	PH_TXT_INPUT_NAME	Please enter your name. Tap the OK button when you're done.	あなたの名前を入力しましょう。\n入力後、OKアイコンをタッチしてください。	
+19	2	PH_TXT_INPUT_COMMENTS	Enter a message you would like to share with others.	なにか一言。言ってみたいと思いませんか？\nあなたの心の叫び、そっと教えてください。	
+19	3	PH_TXT_INPUT_BODY	Choose the avatar you want to use.  Draw a check mark on, or a circle around your choice with the stylus.	あなたの分身となるキャラクターを決定します。<P>選択の決定は、\nタッチペンでアイコンをチェック\nあるいは○で囲んでください。	
+19	4	PH_TXT_INPUT_SEXTYPE	Choose your gender.  Draw a check mark on, or a circle around your choice with the stylus.	あなたの性別を入力します。<P>選択の決定は、\nタッチペンでアイコンをチェック\nあるいは、○で囲んでください。	
+19	5	PH_TXT_INPUT_BLOODTYPE	Enter your blood type.  Draw a check mark on, or a circle around your choice with the stylus.	ここでは血液型を入力します。<P>選択の決定は、\nタッチペンでアイコンをチェック\nあるいは、○で囲んでください。	
+19	6	PH_TXT_INPUT_BIRTHDAY	Please enter your birthday.  Touch the OK button when you're done.	ここではあなたの誕生日を入力してください。	
+19	7	PH_TXT_WELCOMETHEPARK	Welcome to the world of Theme Park!<P>Here you can build the Theme Park of your dreams.	”テーマパーク”へようこそ！<P>このゲームで、\n一緒に楽しく遊園地を造っていきましょう！	
+19	8	PH_TXT_WARRNING	A saved game for the theme park that you've been building already exists.<P>Do you want to delete your saved game and create a new theme park from scratch?	建設途中のテーマパークのデータがあります。\n以前のテーマパークは廃園となります。<P>以前のデータを破棄し、\n新たなテーマパークを作りますか？	
+19	9	PH_TXT_LOADMESSAGE	Loading theme park data. Please wait...	テーマパークのデータをロード中です…\nしばらくお待ちください。	
+19	10	PH_TXT_INPUT_PROFILE	Please enter your profile details. Tap the OK button when you're done.	プロフィール入力中です。\n入力が済んだら、\nOKアイコンをタッチしてください。	
+19	11	PH_TXT_INPUT_PROFILE_DONE	Your profile has been created!<P>This profile will serve as a calling card of sorts when using the DS Wireless Communications.<P>You will also be able to trade profiles with other players who are also in this mode.<P>By trading profiles, your avatar can visit other players' parks, and their avatars can visit yours!<P>When you have a chance, try out the DS Wireless Communications. You just might make some new friends!	プロフィールを作成しました！<P>このプロフィールは、\nすれちがい通信の際、\nあなたの名刺代わりとなります。<P>また、すれちがい通信をする事によって、\n他のプレイヤーのプロフィールを入手できます。<P>他のプレイヤーは、\n別のテーマパークのオーナーとして、\n遊びに来るかもしれません。<P>すれちがい通信で、新たな出会いの予感！？\nすれちがい通信、ぜひ試してみてください！	
+19	12	PH_TXT_INPUT_PROFILE_CONFIRM	Tap the OK button when you're done.	入力できましたか？\n問題なければ、\nOKアイコンをタッチしてください。	
+19	13	PH_TXT_INPUT_ICON	Next, choose an icon for your avatar. Either draw a check mark on, or a circle around your choices with the Stylus.	次にキャラクターのアイコンを選択します。<P>選択の決定は、\nタッチペンでアイコンをチェック\nあるいは、○で囲んでください。	
+19	14	PH_TXT_COUNTRY_SELECT	Choose the country you want to build your Theme Park in.	次にテーマパークを建設する国を決めましょう。	
+19	15	CELL9471	You have chosen ＠＠＠＠. Touch the OK button to confirm your choice.	＠＠＠＠でよろしいですか？\nよろしければ、OKアイコンをタッチしてください	
+19	16	CELL9481	Choose the country you want to build your Theme Park in.	どの国にテーマパークを建設しますか？\n建設したい国の国旗をタッチしてください。	
+19	17	CELL9491	You have chosen ＠＠＠＠. Touch the OK button to confirm your choice.	＠＠＠＠でよろしいですか？\nよろしければ、ＯＫアイコンをタッチしてください	
+19	18	PH_TXT_COUNTRY_SELECT_AGAIN	You've already achieved success in %s. Do you want to play in this country again?	%sでは、\nすでに大成功を収めています。\nもう一度、この国でチャレンジしますか？	
+19	19	PH_TXT_ENTER_NAME	Enter Name	名前を入力	
+19	20	PH_TXT_ENTER_COMMENTS	Enter Message	コメントを入力	
+19	21	CELL9531			
+20	0	PH_TEXT_MONTH	MONTH	月	
+20	1	PH_TEXT_DAY	DAY	日	
+20	2	CELL9571			
+21	0	NT_TXT_COM_ACCESSING	You're in DS Wireless Communications mode now... The connection will be kept alive even if you close your Nintendo DS.<P>While in this mode, if you get within range of another Theme Park owner...<P>... who is also in DS Wireless Communications mode, you will automatically exchange profiles!	現在、すれ違い通信中です…\n本体を閉じても、通信は継続します。	
+21	1	NT_TXT_COM_SUCCESSED	The owner of another theme park just sent you a profile!<P>Can't wait to check out his/her details? Let's open up that profile and take a look!	他のテーマパークのオーナーから、\nプロフィールを受信しました！<P>どんな方なんでしょうか？楽しみですね。\n早速プロフィールを見てみましょう！	
+21	2	NT_TXT_START	Welcome to the Theme Park DS Wireless Communications mode. You have a number of options below.<P>Either draw a check mark on, or a circle around, to choose one.<P>You can also tap each option to view its description, or tap the "X" to return to the previous menu.	”すれちがい通信”モードにようこそ。\nこの画面では通信周りの設定を行います。<P>選択の決定は、\nタッチペンでアイコンをチェック\nあるいは○で囲んでください。	
+21	3	NT_TXT_GUID_PROFILE	Confirm your profile details. You can also edit your profile from here.	あなたのプロフィールを確認します。\nまたプロフィールの再編集が可能です。	
+21	4	NT_TXT_GUID_FRIENDLIST	Draw a check mark or a circle on this box to view other Theme Park owners you met in DS Wireless Communications mode.	すれ違い通信で出会った、\n別のテーマパークの\nオーナープロフィールを表示します。	
+21	5	NT_TXT_GUID_COMSTART	Draw a check mark or a circle on this box to begin using DS Wireless Communications mode.	すれ違い通信を開始します。	
+21	6	NT_TXT_COMES_BEFORE	This is %s, who visited our Theme Park before.<P>Meeting old friends is such a wonderful thing. Friendships go a long way!	これは以前、我々のテーマパークを訪れた、\n%s 様ですね。<P>またこうして出会えた事は素晴らしいことです。\n一期一会、大切にしたいですね。	
+21	7	NT_TXT_COMES_BEFORE_ADD	Looks like this person's having fun running theme parks, too.	ふむふむ、なるほど。このオーナー様も、\nテーマパーク運営、楽しまれてるようですね。	
+21	8	NT_TXT_FRIENDLIST_ADD	You have added %s to your "Friends" List!	%s 様を\nフレンドリストに追加しました！	
+21	9	NT_TXT_FRIENDLIST_FULL	I'm sorry, your "Friends" list is already full.<P>You'll need to delete a profile first if you want to add someone new.<P>Do you want to choose someone to delete from your "Friends" list?	申し訳ありません。\nすでにフレンドリストは満席となっております。<P>新たに登録したい場合、\nフレンドリストからどなたか一人、\n削除しなければなりません。<P>フレンドリストから、\n削除する候補者を選びますか？	
+21	10	NT_TXT_FRIENDLIST_RECONFIRM	Are you sure you want to give up adding %s to your "Friends" List?	%s 様は\nフレンドリストに登録できません。\nそれでもよろしいですか？	
+21	11	NT_TXT_FRIENDLIST_ADDFALED	%s was not added to your "Friends" List.	残念ですが、\n%s 様は\nフレンドリストに登録できませんでした。	
+21	12	NT_TXT_FRIENDLIST_DELETE	Choose a Theme Park owner to delete from your "Friends" list.	フレンドリストから削除したい\nテーマパークオーナーを選んでください。	
+21	13	NT_TXT_FRIENDLIST_DELETED	You've deleted %s from your "Friends" list.	%s 様を\nフレンドリストから削除しました！	
+21	14	NT_TXT_FRIENDLIST_START	See the list of the other Theme Park owners who sent you their profiles using DS Wireless Communications. <P>Either draw a check mark on, or a circle around, your choice.	この画面では、通信で獲得した別の\nテーマパークオーナーの一覧が表示されます。<P>選択の決定は、\nタッチペンでアイコンをチェック\nあるいは○で囲んでください。	
+21	15	NT_TXT_UNLOCK_SUCCESSED	Congratulations! You've unlocked %s by using DS Wireless Communications mode!	おめでとうございます！すれちがい通信で、\n%s が\nアンロックされました！	
+21	16	NT_TXT_FRIENDLIST_UPDATE	Your Friends List has been updated. Do you want to Save your Friends List?	新しい要素が更新されました。\nセーブしてもいいですか？	
+21	17	NT_TXT_UNLOCK_SAVECONFIRM	You've unlocked a new feature! Do you want to Save your progress?	新しい要素がアンロックされました。\nセーブしてもいいですか？	
+21	18	NT_TXT_FRIENDLIST_DELETECONFIRM	Would you like to delete %s from your "Friends" list?	%s 様を\nフレンドリストから削除してもよろしいですか？	
+21	19	NT_TXT_COM_ERROR	DS Wireless Communications cannot be performed.	DSワイヤレス通信を行うことができません	
+21	20	CELL9791			
+22	0	AD_HELP_START	Last, but not least, choose an advisor to help you run your theme park.<P>Your advisor will offer you various helpful tips when you're tackling problems with your park.	最後に、オーナーである\nあなたの良きパートナーとなる\nアドバイザーを任命します。<P>アドバイザーは、\nあなたがテーマパークの運営に困った時、\n的確なアドバイスをしてくれます。	
+22	1	AD_HELP_LEE_COMMENTS	Lee is a tough, energetic youngster.	リーです。\nガッツあふれる元気な若者です。	
+22	2	AD_HELP_ROBERT_COMMENTS	I will back you up with a wealth of knowledge.	ロバートです。\n豊富な知識で、あなたをサポートします。	
+22	3	AD_HELP_MOCCA_COMMENTS	Mocca is sure to brighten up your days.	モカです。\n癒しを求めるあなたにピッタリじゃないですか？	
+22	4	AD_HELP_CRYSTAL_COMMENTS	Crystal is smart and beautiful. What else could you wish for?	クリスタルです。\n聡明にして容姿端麗、大人の魅力全開です。	
+22	5	AD_HELP_ASSIGNMENT_LEE	Nice meetin' ya, Boss! I'm Lee.<P>I'll take over and help you get around from here.<P><2>Together, we'll be building a totally awesome theme park!	はじめまして、オーナー！\nボクはリー。<P>ここからはロバートに代わって、\nボクがナビゲートしていきます。よろしくです！<P><2>それじゃあ、これから一緒に\nスゲぇ、テーマパークを作っていきましょう！	
+22	6	AD_HELP_ASSIGNMENT_ROBERT	Thank you for appointing me.<P>I am certain my experience in running theme parks will be of help. I shall give you all the advice I can.	私を任命していただき、ありがとうございます。<P>これまで話をしていたのに、紹介遅れました。\n私はロバート・ベルと申す者です。<P><2>私の経営ノウハウ、\nお役に立つと確信しております。\n全力でオーナーをサポートしましょう。	
+22	7	AD_HELP_ASSIGNMENT_MOCCA	Oh, hello... I...I'm glad to meet you! My name is Mocca!<P>I'll be your guide from here on. I'm...I'm looking forward to this job!<P><2>I'll try not to mess up too badly! I'm sure we'll have fun building the park!	あのっ…そのっ…は、はじめまして！\nモカっていいます…<P>ここからは、私がナビゲートします。\nよっ…よろしくお願いします。<P><2>あ、足、引っ張らないようにガンバリます！\n楽しくテーマパークを作っていきましょー！	
+22	8	AD_HELP_ASSIGNMENT_CRYSTAL	Nice to meet you. I'm Crystal Moore. I'll take over from here and be your guide.<P><2>It's a pleasure to be working with you. I hope to meet your expectations.	はじめまして、オーナー。\n私はクリスタル・モアといいます。<P>ここからは、ロバートに代わって、\n私が案内をさせていただきます。<P><2>ご一緒に仕事をさせていただき、光栄です。\nオーナーの期待に沿えるよう、がんばります。	
+22	9	AD_HELP_ASSIGNMENT_LEE_AGAIN	Thanks for choosing me again, Boss! Looks like you've learned Lee is a name you can trust!<P>This next theme park is going to be the best you've ever seen.	ボクを選んでくれてありがとう、オーナー！\nボクの名前はリー。<P>ここからはロバートに代わって、\nボクがナビゲートしていきます。\nヨロシクです！<P><2>それじゃあ、これから一緒に\nスゲぇ、テーマパークを作っていきましょう！	
+22	10	AD_HELP_ASSIGNMENT_ROBERT_AGAIN	Thank you very much for choosing me again.<P>I trust you found my advice to be valuable the last time we collaborated.	また選んでいただき、ありがとうございます。<P>私はロバート・ベルと申します。<P><2>私の経営ノウハウ、\nお役に立つと確信しております。\n全力でオーナーをサポートしましょう。	
+22	11	AD_HELP_ASSIGNMENT_MOCCA_AGAIN	Thank you so much for choosing me again!<P>We are gonna have so much fun building another park! Whoops... Gotta be careful... I keep forgetting this is a job! Tee hee.	また、選んでくれて、あ、アリガト…\nモカです…<P>ここからは、私がナビゲートするね。\nあ、仕事だもんね。しゃべり方気をつけなきゃ。<P><2>エヘヘ…\nまた一緒に楽しくテーマパークを作っていこっ。	
+22	12	AD_HELP_ASSIGNMENT_CRYSTAL_AGAIN	It is a real pleasure to be working with you again. I hope you found me helpful last time! Let's get to work, shall we?	また、ご一緒できて光栄です、オーナー。\n私はクリスタル・モアといいます。<P>フフっ…前回、少しはお役に立てたでしょうか？\nここからは私が、案内させていただきます。<P><2>さぁ、ここからは仕事モード。\n一緒にがんばりましょう！	
+22	13	CELL9941			
+23	0	AD_STATUS_LEE_NAME	Lee	リー	
+23	1	AD_STATUS_LEE_YEARS	22 years old	22歳	
+23	2	AD_STATUS_LEE_INFO	Confident and Energetic	新進気鋭	
+23	3	AD_STATUS_ROBERT_NAME	Mr. Bell	Mr.ベル	
+23	4	AD_STATUS_ROBERT_YEARS	58 years old	58歳	
+23	5	AD_STATUS_ROBERT_INFO	Wise and Experienced	博学多才	
+23	6	AD_STATUS_CRYSTAL_NAME	Crystal	クリスタル	
+23	7	AD_STATUS_CRYSTAL_YEARS	26 years old	26歳	
+23	8	AD_STATUS_CRYSTAL_INFO	Smart and Sexy	才色兼備	
+23	9	AD_STATUS_MOCCA_NAME	Mocca	モカ	
+23	10	AD_STATUS_MOCCA_YEARS	18 years old	18歳	
+23	11	AD_STATUS_MOCCA_INFO	Cute and Sweet	純真無垢	
+23	12	CELL10081			
+24	0	DT_DIFF_SET_HELP	Here you can name your park, choose different game modes and choose the difficulty level.<P>Try tapping each choice for an explanation of that option.	次に、ゲームモードを選択します。<P>ここではあなたの好みに合わせて、\nゲームモードを変更することが出来ます。<P>各項目をタッチしてみてください。\nそれぞれのモードに関して、私が説明します。	
+24	1	DT_GAME_LEVEL	This mode is an easy mode for beginners. I recommend choosing this if you are new to the game.	初心者向けのゲームモードです。\n慣れてない人はこのモードを選んでください。	
+24	2	CELL10121	This mode is recommended once you're familiar with building Parks.<P>"Research and Development" will be enabled in this mode.<P>Research will allow you to develop and upgrade various rides and shops.<P>You'll also need to negotiate staff wages and prices for stocking up your shops.	テーマパークを作るのに慣れてきた人に、\nおすすめのゲームモードです。<P>このモードでは”研究開発”が可能となります。<P>研究開発を行うと、新しいアトラクションや\nショップの開発、改良が可能となります。<P>また労働組合や、卸業者との仕入れ値交渉も、\nオーナーである、あなたが行う必要があります。	
+24	3	CELL10131	This mode is for those of you who prefer to take full charge of your parks.<P>It offers more features than the SIM mode, and gives you more control over your park's details.<P>You'll be able to manage your budget and buy and sell stocks. You'll also be able to directly manage your shops' inventories.	ただ作るのではなく、本格的にテーマパークを\n運営したいあなたに、おすすめのモードです。<P>”考えるのが楽しい”より要素が追加され、\nテーマパークを細かく運営できる様になります。<P>経理、株の資産運用が可能となります。\nさらに、商品の在庫仕入れを\n自分で行う必要があります。	
+24	4	DT_GAME_MODE	EASY level starts you off with more money, and the guests that visit are more willing to spend money in your Park.	スタートの資金はぜいたくに、\nお客さんも気分良くお金を出してくれます。	
+24	5	CELL10151	MEDIUM level starts you off with a reasonable amount of money. Some of your guests will be picky about spending money in your park.	スタートの資金はそれなりに。\n初級と比べ、\n目の肥えたお客さんも増えてきます。	
+24	6	CELL10161	HARD level starts you off with a small start balance. Your guests will be very careful about where they spend their money.	スタートの資金も乏しく、\nサービスにシビアなお客さん達。\n財布のヒモは固いです。	
+24	7	DT_TUTORIAL_SETTINGS	Choose YES if you want an advisor to guide you through the basics of the game.	ゲームの基本的な流れに関して、\nアドバイザーがチュートリアルを行います。	
+24	8	CELL10181	Choose NO if you are already familiar with the basics of game.	チュートリアルはありません。\nプレーに慣れた方は、\nこちらを選択してください。	
+24	9	DT_DIFF_SET_HELP_2	Choose the difficulty level for your game. Tap the OK button when you're done.	ゲームモードを選択します。\nモードを選んで、\nＯＫアイコンをタッチしてください。	
+24	10	DT_ENTER_PARKNAME	Enter a new name for your park. Tap the OK button when you're done. 	あなたの考えたテーマパーク名に変更可能です。\n入力できたら、\nＯＫアイコンをタッチしてください。	
+24	11	CELL10211			
