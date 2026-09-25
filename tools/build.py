@@ -16,7 +16,7 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import ndspy.rom
 import bdf, nftr
-import langdat, tapfix, kocheck, kbdko
+import langdat, tapfix, kocheck, kbdko, kbdgfx
 
 ROM = langdat.ROM
 GALMURI9 = 'C:/claude/utils/font/Galmuri-v2.40.3/Galmuri9.bdf'
@@ -82,7 +82,8 @@ def main():
     texts['LANG0'][10][10] = LANG_NAME
     r.setFileByName('DATA/LANG0-JP.DAT', langdat.build(texts['LANG0']))
     alltext = ''.join(s for gs in texts.values() for g in gs for s in g) + LANG_NAME
-    kbd = kbdko.apply(r)                                  # 이름 입력 가나 자판 → 한글 368음절
+    kbd = kbdko.apply(r)                                  # 이름 입력 가나 자판(쓰는 두 쪽) → 한글 92음절
+    kbdgfx.apply(r)                                       # 자판 버튼: 한글1·한글2 + ゛゜小字 빈칸
     alltext += ''.join(kbd)
     print('  자판: 한글 %d칸' % len(kbd))
     syl = sorted({c for c in alltext if 0xAC00 <= ord(c) <= 0xD7A3})

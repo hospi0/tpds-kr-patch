@@ -28,7 +28,7 @@ O = 'ㅓㅜㅐㅕㅠ'
 # 쪽마다 46칸: 7열×5 + や열 3 + ら열 5 + わ열 3
 PAGES = {
     'jp_hiragana': grid('ㅇㄱㅅㄷㄴㅎㅁ', A) + list('야유요') + grid('ㄹ', A) + list('와워은'),
-    'jp_katakana': list('어우애여얘') + grid('ㄱㅅㄷㄴㅎㅁ', O) + list('예의왜') + grid('ㄹ', O) + list('위외웨'),   # ㅇ 열 «유» 는 かな 야유요 와 겹쳐 «얘»
+    'jp_katakana': list('어우애여얘') + grid('ㄱㅅㄷㄴㅎㅁ', O) + list('예의왜') + grid('ㄹ', O) + list('위외피'),   # «웨» 자리에 «피»(하스피 — 사용자 지정 2026-09-25)   # ㅇ 열 «유» 는 かな 야유요 와 겹쳐 «얘»
     'jp_dakuten': grid('ㅂㅋㅈㅌㅍㅊㄲ', A) + list('따띠또') + grid('ㅃ', A) + list('싸씨쏘'),
     'jp_katakana_dakuten': grid('ㅂㅋㅈㅌㅍㅊㄲ', O) + list('떠뚜때') + grid('ㅃ', O) + list('써쑤쌔'),
 }
@@ -76,7 +76,7 @@ def pages():
         out[name] = chunk
     for name, p in out.items():
         assert len(p) == 46, (name, len(p))
-    allsyl = [s for p in out.values() for s in p]
+    allsyl = [s for n, p in out.items() if n in USED for s in p]   # 쓰는 두 쪽 안에서만 중복 검사
     assert len(allsyl) == len(set(allsyl)), '자판 음절 중복'
     return out
 
@@ -96,10 +96,15 @@ def build(orig, syls):
     return b'\xff\xfe' + ''.join(t).encode('utf-16-le')
 
 
+USED = ('jp_hiragana', 'jp_katakana')   # ⛔ 게임이 불러오는 가나 자판은 이 둘뿐(코드 문자열 실측) — ゛゜小字 는 쪽이 아니라 «방금 친 글자 변환»
+
+
 def apply(r):
-    """ndspy ROM 에 적용 → 쓴 음절 목록"""
+    """ndspy ROM 에 적용(쓰는 두 쪽만) → 쓴 음절 목록"""
     out = []
     for name, syls in pages().items():
+        if name not in USED:
+            continue
         fn = 'DATA/%s.kbdmap' % name
         d = build(bytes(r.getFileByName(fn)), syls)
         r.setFileByName(fn, d)
