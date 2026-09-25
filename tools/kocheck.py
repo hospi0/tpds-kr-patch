@@ -9,7 +9,7 @@ work/text/*.tsv 를 그대로 복사해 KO 열(6번째)을 채워도 된다(열 
 
 막는 것(오류):
   - 제어·자리표시 불일치: %s %d <1> <2> <P> ＠＠＠＠ 의 개수가 원문(JP)과 다름
-  - 줄 폭 초과: `\n`/<P> 로 나뉜 한 줄이 22칸(220px) 넘음 — 한글·전각 = 10px, 반각 = 5px(글꼴 실측), 공백 = 4px 로 계산
+  - 줄 폭 초과: `\n`/<P> 로 나뉜 한 줄이 22칸(220px) 넘음(원문 줄이 더 넓으면 원문 폭까지) — 한글·전각 = 10px, 반각 = 5px(글꼴 실측), 공백 = 4px 로 계산
   - 쪽당 4줄 이상(대사창 3줄)
   - 번역 안의 일본어 가나·한자(빠뜨린 곳)
 경고:
@@ -84,14 +84,16 @@ def check(fn, src):
             err.append('%s 제어 불일치 JP%s KO%s' % (where, TOKENS.findall(jp), TOKENS.findall(ko)))
         if KANA_KANJI.search(TOKENS.sub('', ko)):
             err.append('%s 일본어 남음: %s' % (where, ko[:40]))
+        # 원문 한 줄이 이미 대사창보다 넓으면(표 머리줄·연구 설명 등 다른 칸) 원문 폭까지 허용
+        box = max([BOX] + [px(TOKENS.sub('', seg)) for seg in re.split(r'<P>|\\n', jp)])
         for page in ko.split('<P>'):
             lines = page.split('\\n')
             if len(lines) > LINES:
                 err.append('%s 쪽당 %d줄(최대 %d): %s' % (where, len(lines), LINES, page[:30]))
             for seg in lines:
                 w = px(TOKENS.sub('', seg))
-                if w > BOX:
-                    err.append('%s 줄 폭 %dpx > %d: %s' % (where, w, BOX, seg))
+                if w > box:
+                    err.append('%s 줄 폭 %dpx > %d: %s' % (where, w, box, seg))
                 elif w > 300 and '\\n' in jp:
                     warn.append('%s 긴 줄(자동 줄바꿈 의존) %dpx: %s' % (where, w, seg[:30]))
     return err, warn, done
